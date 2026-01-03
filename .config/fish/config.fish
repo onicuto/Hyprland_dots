@@ -6,7 +6,7 @@ if status is-interactive
     alias vim="nvim"
     alias telefon="scrcpy"
     alias lua="lua5.1"
-    alias fishconf="nvim /home/onicuto/.config/fish/config.fish"
+    alias fishconf="nvim /home/onicuto/.dotfiles/.config/fish/config.fish"
     alias mirrors="sudo reflector --country Russia --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist"
     # Commands to run in interactive sessions can go here
 end
