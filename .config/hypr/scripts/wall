@@ -1,0 +1,22 @@
+#!/bin/bash
+# Быстрый выбор обоев по Win+W
+
+WALLPAPER_DIR="$HOME/.config/hypr/wallpapers/"
+
+# Простой выбор через wofi
+selected=$(find "$WALLPAPER_DIR" -type f \( \
+  -name "*.jpg" -o \
+  -name "*.jpeg" -o \
+  -name "*.png" -o \
+  -name "*.webp" \
+  \) -exec basename {} \; | sort | wofi --show dmenu --prompt "Обои: ")
+
+if [ -n "$selected" ]; then
+  wallpaper=$(find "$WALLPAPER_DIR" -name "$selected" | head -1)
+  swww img "$wallpaper" \
+    --transition-type grow \
+    --transition-step 90 \
+    --transition-fps 60 \
+    --transition-duration 1.5
+  notify-send "Обои установлены" "$selected" -t 1000
+fi

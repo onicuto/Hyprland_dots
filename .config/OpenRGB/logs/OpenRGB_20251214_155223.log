@@ -1,0 +1,48 @@
+    OpenRGB v0.9+ (1.0rc2)
+    Commit:  from 
+    Launched: 20251214_155223
+====================================================================================================
+
+1     |Info:    [ProfileManager] Found file: new main.orp attempting to validate header
+3     |Info:    [ProfileManager] Valid v5 profile found for new main
+74    |Info:    [ResourceManager] Initializing HID interfaces: Success
+74    |Info:    ------------------------------------------------------
+74    |Info:    |               Start device detection               |
+74    |Info:    ------------------------------------------------------
+88    |Info:    ------------------------------------------------------
+88    |Info:    |             Detecting I2C interfaces               |
+88    |Info:    ------------------------------------------------------
+88    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-3 Device 10DE:2489 Subsystem: 10DE:2489
+88    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-1 Device 1022:790B Subsystem: 1849:FFFF
+88    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-6 Device 10DE:2489 Subsystem: 10DE:2489
+88    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-4 Device 10DE:2489 Subsystem: 10DE:2489
+88    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-2 Device 1022:790B Subsystem: 1849:FFFF
+88    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-0 Device 1022:790B Subsystem: 1849:FFFF
+88    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-7 Device 10DE:2489 Subsystem: 10DE:2489
+89    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-5 Device 10DE:2489 Subsystem: 10DE:2489
+89    |Info:    ------------------------------------------------------
+89    |Info:    |               Detecting I2C devices                |
+89    |Info:    ------------------------------------------------------
+1063  |Info:    ------------------------------------------------------
+1063  |Info:    |            Detecting I2C DIMM modules              |
+1063  |Info:    ------------------------------------------------------
+1934  |Info:    [ResourceManager] Detected occupied slot 1, bus 5, type DDR4
+3226  |Info:    [ResourceManager] Detected occupied slot 2, bus 5, type DDR4
+4267  |Info:    ------------------------------------------------------
+4267  |Info:    |               Detecting I2C PCI devices            |
+4267  |Info:    ------------------------------------------------------
+4269  |Info:    ------------------------------------------------------
+4269  |Info:    |               Detecting HID devices                |
+4269  |Info:    ------------------------------------------------------
+4269  |Info:    ------------------------------------------------------
+4269  |Info:    |            Detecting libusb HID devices            |
+4269  |Info:    ------------------------------------------------------
+4284  |Info:    ------------------------------------------------------
+4284  |Info:    |              Detecting other devices               |
+4284  |Info:    ------------------------------------------------------
+4333  |Info:    [NVIDIA GeForce RTX 3060 Ti LHR] Registering RGB controller
+4343  |Info:    [ResourceManager] Calling Post-detection callbacks
+4343  |Info:    ------------------------------------------------------
+4343  |Info:    |                Detection completed                 |
+4343  |Info:    ------------------------------------------------------
+45907 |Info:    [ProfileManager] Profile loading: Succeeded for NVIDIA GeForce RTX 3060 Ti LHR @ 

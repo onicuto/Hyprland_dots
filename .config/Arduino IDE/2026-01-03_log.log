@@ -1,0 +1,101 @@
+2026-01-03 00:04:49 Arduino IDE 2.3.7
+2026-01-03 00:04:49 Checking for frontend application configuration customizations. Module path: /opt/arduino-ide/resources/app/lib/backend/electron-main.js, destination 'package.json': /opt/arduino-ide/resources/app/package.json
+2026-01-03 00:04:49 Setting 'theia.frontend.config.appVersion' application configuration value to: "2.3.7" (type of string)
+2026-01-03 00:04:49 Setting 'theia.frontend.config.cliVersion' application configuration value to: "1.3.1" (type of string)
+2026-01-03 00:04:49 Setting 'theia.frontend.config.buildDate' application configuration value to: "2025-12-17T16:01:58.874Z" (type of string)
+2026-01-03 00:04:49 Frontend application configuration after modifications: {"applicationName":"Arduino IDE","defaultTheme":{"light":"arduino-theme","dark":"arduino-theme-dark"},"defaultIconTheme":"none","electron":{"windowOptions":{},"showWindowEarly":true,"splashScreenOptions":{},"uriScheme":"arduino-ide"},"defaultLocale":"","validatePreferencesSchema":false,"reloadOnReconnect":true,"uriScheme":"theia","preferences":{"window.title":"${rootName}${activeEditorShort}${appName}","files.autoSave":"afterDelay","editor.minimap.enabled":false,"editor.tabSize":2,"editor.scrollBeyondLastLine":false,"editor.quickSuggestions":{"other":false,"comments":false,"strings":false},"editor.maxTokenizationLineLength":500,"editor.bracketPairColorization.enabled":false,"breadcrumbs.enabled":false,"workbench.tree.renderIndentGuides":"none","explorer.compactFolders":false},"appVersion":"2.3.7","cliVersion":"1.3.1","buildDate":"2025-12-17T16:01:58.874Z"}
+2026-01-03 00:04:49 Starting backend process. PID: 572555
+2026-01-03 00:04:49 Showing main window early
+2026-01-03 00:04:49 Using browser-only version of superagent in non-browser environment
+2026-01-03 00:04:49 Configuration directory URI: 'file:///home/onicuto/.arduinoIDE'
+2026-01-03 00:04:49 Configuring to accept webviews on '^.+\.webview\..+$' hostname.
+2026-01-03 00:04:50 2026-01-02T21:04:50.001Z root INFO Backend u.initialize: 23.4 ms [Finished 0.430 s after backend start]
+2026-01-03 00:04:50 2026-01-02T21:04:50.001Z root INFO Backend Object.initialize: 22.3 ms [Finished 0.430 s after backend start]
+2026-01-03 00:04:50 2026-01-02T21:04:50.001Z root INFO Backend a.initialize: 0.8 ms [Finished 0.430 s after backend start]
+2026-01-03 00:04:50 2026-01-02T21:04:50.001Z root INFO Backend a.initialize: 0.6 ms [Finished 0.430 s after backend start]
+2026-01-03 00:04:50 2026-01-02T21:04:50.001Z root INFO Backend u.initialize: 0.8 ms [Finished 0.430 s after backend start]
+2026-01-03 00:04:50 2026-01-02T21:04:50.003Z root INFO Backend l.initialize: 23.2 ms [Finished 0.431 s after backend start]
+2026-01-03 00:04:50 2026-01-02T21:04:50.008Z root INFO configured all backend app contributions
+2026-01-03 00:04:50 2026-01-02T21:04:50.008Z root INFO Backend l.onStart: 0.8 ms [Finished 0.437 s after backend start]
+2026-01-03 00:04:50 2026-01-02T21:04:50.008Z root INFO Backend d.onStart: 0.1 ms [Finished 0.437 s after backend start]
+2026-01-03 00:04:50 2026-01-02T21:04:50.008Z root INFO Backend a.onStart: 0.2 ms [Finished 0.438 s after backend start]
+2026-01-03 00:04:50 2026-01-02T21:04:50.009Z config INFO >>> Initializing CLI configuration...
+2026-01-03 00:04:50 2026-01-02T21:04:50.009Z root INFO Backend x.onStart: 0.2 ms [Finished 0.438 s after backend start]
+2026-01-03 00:04:50 2026-01-02T21:04:50.009Z config INFO Loading CLI configuration from /home/onicuto/.arduinoIDE/arduino-cli.yaml...
+2026-01-03 00:04:50 2026-01-02T21:04:50.009Z daemon INFO Starting daemon from /opt/arduino-ide/resources/app/lib/backend/resources/arduino-cli...
+2026-01-03 00:04:50 2026-01-02T21:04:50.009Z root INFO Backend w.onStart: 0.2 ms [Finished 0.438 s after backend start]
+2026-01-03 00:04:50 2026-01-02T21:04:50.009Z discovery-log INFO start
+2026-01-03 00:04:50 2026-01-02T21:04:50.009Z discovery-log INFO start new deferred
+2026-01-03 00:04:50 2026-01-02T21:04:50.009Z root INFO Backend v.onStart: 0.1 ms [Finished 0.438 s after backend start]
+2026-01-03 00:04:50 2026-01-02T21:04:50.009Z root INFO Backend a.onStart: 0.0 ms [Finished 0.438 s after backend start]
+2026-01-03 00:04:50 2026-01-02T21:04:50.011Z root INFO Theia app listening on http://127.0.0.1:43151.
+2026-01-03 00:04:50 2026-01-02T21:04:50.011Z root INFO Finished starting backend application: 2.1 ms [Finished 0.441 s after backend start]
+2026-01-03 00:04:50 2026-01-02T21:04:50.018Z root WARN The local plugin referenced by local-dir:/home/onicuto/.arduinoIDE/plugins does not exist.
+2026-01-03 00:04:50 2026-01-02T21:04:50.018Z root WARN The local plugin referenced by local-dir:/home/onicuto/.arduinoIDE/deployedPlugins does not exist.
+2026-01-03 00:04:50 2026-01-02T21:04:50.024Z config INFO Loading CLI configuration from /home/onicuto/.arduinoIDE/arduino-cli.yaml...
+2026-01-03 00:04:50 2026-01-02T21:04:50.029Z daemon INFO time="2026-01-03T00:04:50+03:00" level=info msg="arduino-cli version 1.3.1"
+time="2026-01-03T00:04:50+03:00" level=info msg="Using config file: /home/onicuto/.arduinoIDE/arduino-cli.yaml"
+time="2026-01-03T00:04:50+03:00" level=info msg="Executing `arduino-cli daemon`"
+Daemon is now listening on 127.0.0.1:45495
+{"IP":"127.0.0.1","Port":"45495"}
+2026-01-03 00:04:50 2026-01-02T21:04:50.029Z daemon INFO Daemon is running.
+2026-01-03 00:04:50 2026-01-02T21:04:50.044Z config INFO Loaded CLI configuration: {"board_manager":{"additional_urls":[]}}
+2026-01-03 00:04:50 2026-01-02T21:04:50.044Z config INFO Loading fallback CLI configuration to get 'directories.data' and 'directories.user'
+2026-01-03 00:04:50 2026-01-02T21:04:50.052Z config ERROR Failed to initialize the CLI configuration. SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at x.getFallbackCliConfig (/opt/arduino-ide/resources/app/lib/backend/main.js:2:1050305)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async x.loadCliConfig (/opt/arduino-ide/resources/app/lib/backend/main.js:2:1049720)
+    at async x.initConfig (/opt/arduino-ide/resources/app/lib/backend/main.js:2:1048169)
+2026-01-03 00:04:50 2026-01-02T21:04:50.053Z daemon INFO time="2026-01-03T00:04:50+03:00" level=info msg="Starting download" url="https://downloads.arduino.cc/libraries/library_index.tar.bz2"
+2026-01-03 00:04:50 2026-01-02T21:04:50.058Z root INFO Resolve plugins list: 48.7 ms [Finished 0.488 s after backend start]
+2026-01-03 00:04:50 2026-01-02T21:04:50.313Z root INFO Deploy plugins list: 304.3 ms [Finished 0.743 s after backend start]
+2026-01-03 00:04:50 2026-01-02T21:04:50.478Z root INFO creating connection for 1
+2026-01-03 00:04:51 2026-01-02T21:04:51.123Z root WARN A command editor.action.toggleStickyScroll is already registered.
+2026-01-03 00:04:51 Opening channel for service path '/services/electron-window'.
+2026-01-03 00:04:51 Opening channel for service path '/services/ide-updater'.
+2026-01-03 00:04:51 2026-01-02T21:04:51.203Z root INFO Start frontend contributions: 184.1 ms [Finished 1.155 s after frontend start]
+2026-01-03 00:04:51 2026-01-02T21:04:51.204Z root INFO Changed application state from 'init' to 'started_contributions'.
+2026-01-03 00:04:51 2026-01-02T21:04:51.228Z root INFO [4ce2abd5-5956-43f3-a194-1247749320a2] Waiting for backend deployment: 41.8 ms [Finished 1.192 s after frontend start]
+2026-01-03 00:04:51 2026-01-02T21:04:51.622Z root INFO [hosted-plugin: 572766] PLUGIN_HOST(572766) starting instance
+[Object: null prototype] {}
+2026-01-03 00:04:52 2026-01-02T21:04:52.056Z root INFO [4ce2abd5-5956-43f3-a194-1247749320a2] Sync of 23 plugins: 832.3 ms [Finished 2.024 s after frontend start]
+2026-01-03 00:04:52 2026-01-02T21:04:52.069Z root INFO Changed application state from 'started_contributions' to 'attached_shell'.
+2026-01-03 00:04:52 2026-01-02T21:04:52.069Z root INFO >>> Restoring the layout state...
+2026-01-03 00:04:52 2026-01-02T21:04:52.344Z daemon INFO time="2026-01-03T00:04:52+03:00" level=info msg="Updating index" url="https://downloads.arduino.cc/packages/package_index.tar.bz2"
+2026-01-03 00:04:52 2026-01-02T21:04:52.344Z daemon INFO time="2026-01-03T00:04:52+03:00" level=info msg="Starting download" url="https://downloads.arduino.cc/packages/package_index.tar.bz2"
+2026-01-03 00:04:53 2026-01-02T21:04:53.471Z daemon INFO time="2026-01-03T00:04:53+03:00" level=info msg="Checking signature" index=/home/onicuto/.arduino15/package_index.json signatureFile=/home/onicuto/.arduino15/package_index.json.sig trusted=true
+2026-01-03 00:04:53 2026-01-02T21:04:53.472Z daemon INFO time="2026-01-03T00:04:53+03:00" level=info msg="Loading hardware from: /home/onicuto/.arduino15/packages"
+2026-01-03 00:04:53 2026-01-02T21:04:53.472Z daemon INFO time="2026-01-03T00:04:53+03:00" level=info msg="Starting download" url="https://downloads.arduino.cc/discovery/mdns-discovery/mdns-discovery_v1.0.12_Linux_64bit.tar.gz"
+2026-01-03 00:04:54 2026-01-02T21:04:54.263Z daemon INFO time="2026-01-03T00:04:54+03:00" level=info msg="Installing tool" Tool="builtin:mdns-discovery@1.0.12"
+2026-01-03 00:04:54 2026-01-02T21:04:54.298Z daemon INFO time="2026-01-03T00:04:54+03:00" level=info msg="Skipping tool configuration." Tool="builtin:mdns-discovery@1.0.12"
+2026-01-03 00:04:54 2026-01-02T21:04:54.298Z daemon INFO time="2026-01-03T00:04:54+03:00" level=info msg="Tool installed" Tool="builtin:mdns-discovery@1.0.12"
+time="2026-01-03T00:04:54+03:00" level=info msg="Starting download" url="https://downloads.arduino.cc/discovery/serial-discovery/serial-discovery_v1.4.3_Linux_64bit.tar.gz"
+2026-01-03 00:04:55 2026-01-02T21:04:55.007Z daemon INFO time="2026-01-03T00:04:55+03:00" level=info msg="Installing tool" Tool="builtin:serial-discovery@1.4.3"
+2026-01-03 00:04:55 2026-01-02T21:04:55.030Z daemon INFO time="2026-01-03T00:04:55+03:00" level=info msg="Skipping tool configuration." Tool="builtin:serial-discovery@1.4.3"
+2026-01-03 00:04:55 2026-01-02T21:04:55.030Z daemon INFO time="2026-01-03T00:04:55+03:00" level=info msg="Tool installed" Tool="builtin:serial-discovery@1.4.3"
+time="2026-01-03T00:04:55+03:00" level=info msg="Starting download" url="https://downloads.arduino.cc/monitor/serial-monitor/serial-monitor_v0.15.0_Linux_64bit.tar.gz"
+2026-01-03 00:04:55 2026-01-02T21:04:55.383Z daemon INFO time="2026-01-03T00:04:55+03:00" level=info msg="Installing tool" Tool="builtin:serial-monitor@0.15.0"
+2026-01-03 00:04:55 2026-01-02T21:04:55.411Z daemon INFO time="2026-01-03T00:04:55+03:00" level=info msg="Skipping tool configuration." Tool="builtin:serial-monitor@0.15.0"
+2026-01-03 00:04:55 2026-01-02T21:04:55.411Z daemon INFO time="2026-01-03T00:04:55+03:00" level=info msg="Tool installed" Tool="builtin:serial-monitor@0.15.0"
+time="2026-01-03T00:04:55+03:00" level=info msg="Starting download" url="https://downloads.arduino.cc/tools/ctags-5.8-arduino11-pm-x86_64-pc-linux-gnu.tar.bz2"
+2026-01-03 00:04:55 2026-01-02T21:04:55.559Z daemon INFO time="2026-01-03T00:04:55+03:00" level=info msg="Installing tool" Tool="builtin:ctags@5.8-arduino11"
+2026-01-03 00:04:55 2026-01-02T21:04:55.572Z daemon INFO time="2026-01-03T00:04:55+03:00" level=info msg="Skipping tool configuration." Tool="builtin:ctags@5.8-arduino11"
+2026-01-03 00:04:55 2026-01-02T21:04:55.572Z daemon INFO time="2026-01-03T00:04:55+03:00" level=info msg="Tool installed" Tool="builtin:ctags@5.8-arduino11"
+time="2026-01-03T00:04:55+03:00" level=info msg="Starting download" url="https://downloads.arduino.cc/discovery/dfu-discovery/dfu-discovery_v0.1.2_Linux_64bit.tar.gz"
+2026-01-03 00:04:55 2026-01-02T21:04:55.889Z daemon INFO time="2026-01-03T00:04:55+03:00" level=info msg="Installing tool" Tool="builtin:dfu-discovery@0.1.2"
+2026-01-03 00:04:55 2026-01-02T21:04:55.909Z daemon INFO time="2026-01-03T00:04:55+03:00" level=info msg="Skipping tool configuration." Tool="builtin:dfu-discovery@0.1.2"
+2026-01-03 00:04:55 2026-01-02T21:04:55.909Z daemon INFO time="2026-01-03T00:04:55+03:00" level=info msg="Tool installed" Tool="builtin:dfu-discovery@0.1.2"
+time="2026-01-03T00:04:55+03:00" level=info msg="Loading tools from dir: /home/onicuto/.arduino15/packages/builtin/tools"
+time="2026-01-03T00:04:55+03:00" level=info msg="Loaded tool" tool="builtin:ctags@5.8-arduino11"
+time="2026-01-03T00:04:55+03:00" level=info msg="Loaded tool" tool="builtin:dfu-discovery@0.1.2"
+2026-01-03 00:04:55 2026-01-02T21:04:55.909Z daemon INFO time="2026-01-03T00:04:55+03:00" level=info msg="Loaded tool" tool="builtin:mdns-discovery@1.0.12"
+2026-01-03 00:04:55 2026-01-02T21:04:55.909Z daemon INFO time="2026-01-03T00:04:55+03:00" level=info msg="Loaded tool" tool="builtin:serial-discovery@1.4.3"
+2026-01-03 00:04:55 2026-01-02T21:04:55.909Z daemon INFO time="2026-01-03T00:04:55+03:00" level=info msg="Loaded tool" tool="builtin:serial-monitor@0.15.0"
+2026-01-03 00:04:55 2026-01-02T21:04:55.912Z daemon INFO time="2026-01-03T00:04:55+03:00" level=info msg="Loading libraries index file" index=/home/onicuto/.arduino15/library_index.json
+2026-01-03 00:04:56 2026-01-02T21:04:56.098Z daemon INFO time="2026-01-03T00:04:56+03:00" level=info msg="Adding libraries dir" dir=/home/onicuto/.arduino15/libraries isSingleLibrary=false location=ide
+2026-01-03 00:04:56 2026-01-02T21:04:56.098Z daemon INFO time="2026-01-03T00:04:56+03:00" level=info msg="Adding libraries dir" dir=/home/onicuto/Arduino/libraries isSingleLibrary=false location=user
+2026-01-03 00:11:25 Closing channel on service path '/services/electron-window'.
+2026-01-03 00:11:25 Closing channel on service path '/services/ide-updater'.
+2026-01-03 00:11:25 Stored workspaces roots: 
+2026-01-03 00:11:25 No sketches were scheduled for deletion.

@@ -1,0 +1,9 @@
+[2025-12-08 09:34:12.131] [info]  (network)      Sign in received. Token expiration timestamp: 1765178952131
+[2025-12-14 16:41:23.219] [info]  (network)      Token refreshed. New expiration: 1765722983219
+[2025-12-14 16:52:40.976] [info]  (network)      HydraApi.checkDownloadSourcesChanges called with: {
+  downloadSourceIds: [ '8QjOPn2e', 'A8LBxvnp', 'BVnaGLvo', 'J5n0xnrE', 'w4nVajB6' ],
+  gamesCount: 11,
+  since: '2025-12-13T13:52:40.973Z',
+  isLoggedIn: true
+}
+[2025-12-14 16:52:41.213] [info]  (network)      HydraApi.checkDownloadSourcesChanges completed successfully: []

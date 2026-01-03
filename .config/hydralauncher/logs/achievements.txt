@@ -1,0 +1,12 @@
+[2025-12-08 09:34:14.479] [info]  (achievements) Achievements not synchronized on API due to lack of subscription 1040200 Crime Scene Cleaner
+[2025-12-08 09:34:20.753] [info]  (achievements) Achievements not synchronized on API due to lack of subscription 990080 Hogwarts Legacy
+[2025-12-08 09:34:21.267] [info]  (achievements) Achievements not synchronized on API due to lack of subscription 1174180 Red Dead Redemption 2
+[2025-12-08 09:34:21.782] [info]  (achievements) Achievements not synchronized on API due to lack of subscription 1657630 Slime Rancher 2
+[2025-12-08 09:36:34.041] [info]  (achievements) Achievements not synchronized on API due to lack of subscription 993090 Lossless Scaling
+[2025-12-08 09:36:34.290] [info]  (achievements) Achievements not synchronized on API due to lack of subscription 3176060 Emissary Zero
+[2025-12-14 16:44:50.216] [info]  (achievements) Achievements not synchronized on API due to lack of subscription 1040200 Crime Scene Cleaner
+[2025-12-14 16:44:52.704] [info]  (achievements) Achievements not synchronized on API due to lack of subscription 990080 Hogwarts Legacy
+[2025-12-14 16:44:53.486] [info]  (achievements) Achievements not synchronized on API due to lack of subscription 1174180 Red Dead Redemption 2
+[2025-12-14 16:44:59.665] [info]  (achievements) Achievements not synchronized on API due to lack of subscription 993090 Lossless Scaling
+[2025-12-14 16:45:00.149] [info]  (achievements) Achievements not synchronized on API due to lack of subscription 3176060 Emissary Zero
+[2025-12-14 16:52:45.597] [info]  (achievements) Achievements not synchronized on API due to lack of subscription 3405340 Megabonk

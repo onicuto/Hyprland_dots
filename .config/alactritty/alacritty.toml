@@ -1,0 +1,9 @@
+[shell]
+program = "/bin/fish"
+
+[font]
+size = 10.0
+
+[font.normal]
+family = "JetBrainsMonoNL NFP"
+style = "Bold"
