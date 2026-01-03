@@ -1,6 +1,6 @@
 if status is-interactive
     set -U fish_greeting ""
-    neofetch
+    fastfetch
     alias py="python3"
     set -xg EDITOR /usr/bin/nvim
     alias vim="nvim"
