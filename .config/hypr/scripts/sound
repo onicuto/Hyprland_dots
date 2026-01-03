@@ -1,0 +1,51 @@
+#!/bin/bash
+# Минимальный переключатель аудио выходов
+
+# Создаем временный файл для соответствий
+TMP_FILE=$(mktemp)
+
+# Получить все выходы с их описаниями
+CHOICE=$(pactl list sinks | awk -v tmp="$TMP_FILE" '
+    BEGIN {RS=""; FS="\n"}
+    {
+        name = ""
+        desc = ""
+        active = ""
+        
+        for(i=1; i<=NF; i++) {
+            if ($i ~ /Name: /) {
+                split($i, arr, ": ")
+                name = arr[2]
+            }
+            if ($i ~ /Description: /) {
+                split($i, arr, ": ")
+                desc = arr[2]
+            }
+            if ($i ~ /State: RUNNING/) {
+                active = "✓ "
+            }
+        }
+        if (desc != "") {
+            # Укорачиваем описание
+            short_desc = desc
+            if (desc ~ /[Ff]ifine/) short_desc = "Fifine"
+            else if (desc ~ /HDMI/) short_desc = "HDMI"
+            else {
+                split(desc, words, " ")
+                short_desc = words[1]
+            }
+            print short_desc "|" name >> tmp
+            print active short_desc
+        }
+    }
+' | wofi --show dmenu --prompt="Sound" --width=200 --height=100)
+
+# Переключить если выбрано
+if [ -n "$CHOICE" ]; then
+    CLEAN_CHOICE=$(echo "$CHOICE" | sed 's/^✓ //')
+    SINK=$(grep "^$CLEAN_CHOICE|" "$TMP_FILE" | head -1 | cut -d'|' -f2)
+    pactl set-default-sink "$SINK"
+fi
+
+# Удаляем временный файл
+rm -f "$TMP_FILE"

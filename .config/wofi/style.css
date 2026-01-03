@@ -1,0 +1,85 @@
+/* ~/.config/wofi/style.css */
+
+* {
+    font: Jetbrains Mono SemiBold 16px;
+    border-radius: 0px;
+}
+
+window {
+    margin: 0px;
+    border: 2px solid #787878;  /* Серая рамка окна */
+    background-color: #111111;
+    padding: 10px;
+}
+
+#input {
+    margin: 0px 0px 5px 0px;
+    border: 1px solid #787878;  /* Серая рамка для поля ввода */
+    background-color: #111111;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+#input > image.left {
+    margin-right: 10px;
+}
+
+#input > image.right {
+    margin-left: 10px;
+}
+
+#inner-box {
+    margin: 0px;
+    border: 0px;
+    background-color: transparent;
+}
+
+#outer-box {
+    margin: 0px;
+    border: 0px;
+    background-color: transparent;
+}
+
+#scroll {
+    margin: 0px;
+    border: 0px;
+}
+
+#text {
+    margin: 0px;
+    border: 0px;
+    color: #FFFFFF;
+    padding: 2px 0px;
+}
+
+#entry {
+    margin: 0px;
+    border: 0px;
+    background-color: transparent;
+    padding: 8px 12px;
+}
+
+/* Выделенные объекты - серые */
+#entry:selected {
+    background-color: #787878;  /* Серый фон для выделения */
+    border: 1px solid #787878;  /* Серая рамка для выделения */
+}
+
+#entry:selected #text {
+    color: #FFFFFF;  /* Белый текст на сером фоне */
+}
+
+#entry:active {
+    background-color: #787878;  /* Серый фон при активации */
+    border: 1px solid #787878;  /* Серая рамка при активации */
+}
+
+#entry:active #text {
+    color: #FFFFFF;  /* Белый текст при активации */
+}
+
+#img {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
