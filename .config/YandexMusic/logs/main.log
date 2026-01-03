@@ -200,3 +200,5 @@
 [03.01.2026, 22:56:20,875] [info] (Events) Event received PLAYER_STATE undefined undefined true
 [03.01.2026, 22:56:21,099] [info] (Events) Event received PLAYER_STATE undefined true undefined
 [03.01.2026, 23:09:25,119] [info] (Events) Event sent REFRESH_APPLICATION_DATA
+[03.01.2026, 23:10:37,075] [info] (Events) Event sent REFRESH_TRACKS_AVAILABILITY
+[03.01.2026, 23:10:37,076] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
