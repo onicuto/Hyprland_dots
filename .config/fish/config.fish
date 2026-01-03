@@ -8,6 +8,8 @@ if status is-interactive
     alias lua="lua5.1"
     alias fishconf="nvim /home/onicuto/.dotfiles/.config/fish/config.fish"
     alias mirrors="sudo reflector --country Russia --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist"
+    alias conf="nvim ~/.dotfiles/.config"
+
     # Commands to run in interactive sessions can go here
 end
 
