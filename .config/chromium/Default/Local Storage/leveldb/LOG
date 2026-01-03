@@ -1,5 +1,0 @@
-2025/12/25-18:57:08.110 5 Creating DB /home/onicuto/.config/chromium/Default/Local Storage/leveldb since it was missing.
-2025/12/25-18:57:08.122 5 Reusing MANIFEST /home/onicuto/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
-2025/12/25-18:57:30.187 7 Level-0 table #5: started
-2025/12/25-18:57:30.193 7 Level-0 table #5: 44049 bytes OK
-2025/12/25-18:57:30.196 7 Delete type=0 #3
