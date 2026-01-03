@@ -1,0 +1,6 @@
+# ~/.config/wofi/config
+show=drun
+allow_images=false
+insensitive=true
+no_actions=true
+dmenu-parse_action=false

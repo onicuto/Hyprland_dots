@@ -1,0 +1,202 @@
+[03.01.2026, 22:21:33,811] [info] (AppSuspension) App suspension blocker is disabled
+[03.01.2026, 22:21:33,812] [info] (AppSuspension) App suspension blocker is enabled
+[03.01.2026, 22:23:29,312] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[03.01.2026, 22:23:29,312] [info] (AppSuspension) App suspension blocker is disabled
+[03.01.2026, 22:23:29,316] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[03.01.2026, 22:23:29,316] [info] (AppSuspension) App suspension blocker is disabled
+[03.01.2026, 22:23:29,331] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[03.01.2026, 22:23:29,331] [info] (AppSuspension) App suspension blocker is disabled
+[03.01.2026, 22:23:29,331] [info] (AppSuspension) App suspension blocker is enabled
+[03.01.2026, 22:25:01,525] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[03.01.2026, 22:25:01,526] [info] (AppSuspension) App suspension blocker is disabled
+[03.01.2026, 22:25:01,529] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[03.01.2026, 22:25:01,530] [info] (AppSuspension) App suspension blocker is disabled
+[03.01.2026, 22:25:01,537] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[03.01.2026, 22:25:01,537] [info] (AppSuspension) App suspension blocker is disabled
+[03.01.2026, 22:25:01,537] [info] (AppSuspension) App suspension blocker is enabled
+[03.01.2026, 22:26:31,841] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[03.01.2026, 22:26:31,841] [info] (AppSuspension) App suspension blocker is disabled
+[03.01.2026, 22:26:31,844] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[03.01.2026, 22:26:31,844] [info] (AppSuspension) App suspension blocker is disabled
+[03.01.2026, 22:26:31,853] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[03.01.2026, 22:26:31,854] [info] (AppSuspension) App suspension blocker is disabled
+[03.01.2026, 22:26:31,854] [info] (AppSuspension) App suspension blocker is enabled
+[03.01.2026, 22:26:55,608] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[03.01.2026, 22:26:55,608] [info] (AppSuspension) App suspension blocker is disabled
+[03.01.2026, 22:26:55,611] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[03.01.2026, 22:26:55,611] [info] (AppSuspension) App suspension blocker is disabled
+[03.01.2026, 22:26:55,623] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[03.01.2026, 22:26:55,623] [info] (AppSuspension) App suspension blocker is disabled
+[03.01.2026, 22:26:55,623] [info] (AppSuspension) App suspension blocker is enabled
+[03.01.2026, 22:29:03,423] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[03.01.2026, 22:29:03,423] [info] (AppSuspension) App suspension blocker is disabled
+[03.01.2026, 22:29:03,425] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[03.01.2026, 22:29:03,426] [info] (AppSuspension) App suspension blocker is disabled
+[03.01.2026, 22:29:03,449] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[03.01.2026, 22:29:03,450] [info] (AppSuspension) App suspension blocker is disabled
+[03.01.2026, 22:29:03,450] [info] (AppSuspension) App suspension blocker is enabled
+[03.01.2026, 22:30:43,089] [info] (Events) Event sent REFRESH_TRACKS_AVAILABILITY
+[03.01.2026, 22:30:43,090] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[03.01.2026, 22:31:39,007] [info] (Events) Event send REFRESH_REPOSITORY_META
+[03.01.2026, 22:31:39,008] [info] (Events) Event received REPOSITORY_META_UPDATED
+[03.01.2026, 22:32:04,396] [info] (UpdateLogger) Logger inside "electron-updater" package Checking for update
+[03.01.2026, 22:32:04,943] [info] (UpdateLogger) Logger inside "electron-updater" package Update for version 5.82.0 is not available (latest version: 5.82.0, downgrade is disallowed).
+[03.01.2026, 22:32:04,943] [info] (UpdateLogger) Common config {
+  DEPRECATED_VERSIONS: '<=5.77.0',
+  UPDATE_URL: 'https://desktop.app.music.yandex.net/stable/'
+}
+[03.01.2026, 22:32:06,338] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[03.01.2026, 22:32:06,338] [info] (AppSuspension) App suspension blocker is disabled
+[03.01.2026, 22:32:06,341] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[03.01.2026, 22:32:06,341] [info] (AppSuspension) App suspension blocker is disabled
+[03.01.2026, 22:32:06,349] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[03.01.2026, 22:32:06,349] [info] (AppSuspension) App suspension blocker is disabled
+[03.01.2026, 22:32:06,350] [info] (AppSuspension) App suspension blocker is enabled
+[03.01.2026, 22:34:04,254] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[03.01.2026, 22:34:04,254] [info] (AppSuspension) App suspension blocker is disabled
+[03.01.2026, 22:34:04,257] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[03.01.2026, 22:34:04,257] [info] (AppSuspension) App suspension blocker is disabled
+[03.01.2026, 22:34:04,271] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[03.01.2026, 22:34:04,271] [info] (AppSuspension) App suspension blocker is disabled
+[03.01.2026, 22:34:04,271] [info] (AppSuspension) App suspension blocker is enabled
+[03.01.2026, 22:36:00,170] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[03.01.2026, 22:36:00,170] [info] (AppSuspension) App suspension blocker is disabled
+[03.01.2026, 22:36:00,173] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[03.01.2026, 22:36:00,173] [info] (AppSuspension) App suspension blocker is disabled
+[03.01.2026, 22:36:00,186] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[03.01.2026, 22:36:00,186] [info] (AppSuspension) App suspension blocker is disabled
+[03.01.2026, 22:36:00,186] [info] (AppSuspension) App suspension blocker is enabled
+[03.01.2026, 22:38:20,489] [info] (DeviceInfo) {
+  "memory": {
+    "freeMB": 13745,
+    "totalMB": 15921
+  },
+  "storage": {
+    "freeMB": 224118,
+    "totalMB": 478614
+  }
+}
+[03.01.2026, 22:38:20,523] [info] (Events) Event sent REFRESH_APPLICATION_DATA
+[03.01.2026, 22:38:20,524] [info] (Events) Event sent REFRESH_APPLICATION_DATA
+[03.01.2026, 22:38:20,774] [info] (UpdateLogger) Logger inside "electron-updater" package Checking for update
+[03.01.2026, 22:38:20,875] [info] (Events) Event handle GET_PASSPORT_LOGIN
+[03.01.2026, 22:38:20,875] [info] (Events) Event handle GET_YANDEX_UID
+[03.01.2026, 22:38:21,100] [info] (Events) Event received APPLICATION_READY
+[03.01.2026, 22:38:21,102] [info] (Events) Event sent PROBABILITY_BUCKET 50-100
+[03.01.2026, 22:38:21,124] [info] (Events) Event received APPLICATION_THEME
+[03.01.2026, 22:38:21,307] [info] (UpdateLogger) Logger inside "electron-updater" package Update for version 5.82.0 is not available (latest version: 5.82.0, downgrade is disallowed).
+[03.01.2026, 22:38:21,307] [info] (UpdateLogger) Common config {
+  DEPRECATED_VERSIONS: '<=5.77.0',
+  UPDATE_URL: 'https://desktop.app.music.yandex.net/stable/'
+}
+[03.01.2026, 22:38:21,836] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[03.01.2026, 22:38:21,844] [info] (Common) Request to https://desktop.app.music.yandex.net/stable/release-notes/ru.json completed with status:  200
+[03.01.2026, 22:38:21,853] [info] (Events) Event sent LOAD_RELEASE_NOTES
+[03.01.2026, 22:38:22,860] [info] (Events) Event received PLAYER_STATE undefined false undefined
+[03.01.2026, 22:38:22,861] [info] (Events) Event received PLAYER_STATE undefined undefined true
+[03.01.2026, 22:38:23,060] [info] (Events) Event received PLAYER_STATE undefined true undefined
+[03.01.2026, 22:38:58,842] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[03.01.2026, 22:38:58,926] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[03.01.2026, 22:38:59,680] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[03.01.2026, 22:38:59,681] [info] (AppSuspension) App suspension blocker is enabled
+                                                         [03.01.2026, 22:43:04,597] [info] (DeviceInfo) {
+  "memory": {
+    "freeMB": 14120,
+    "totalMB": 15921
+  },
+  "storage": {
+    "freeMB": 224060,
+    "totalMB": 478614
+  }
+}
+[03.01.2026, 22:43:04,646] [info] (Events) Event sent REFRESH_APPLICATION_DATA
+[03.01.2026, 22:43:04,647] [info] (Events) Event sent REFRESH_APPLICATION_DATA
+[03.01.2026, 22:43:04,920] [info] (UpdateLogger) Logger inside "electron-updater" package Checking for update
+[03.01.2026, 22:43:05,043] [info] (Events) Event handle GET_PASSPORT_LOGIN
+[03.01.2026, 22:43:05,044] [info] (Events) Event handle GET_YANDEX_UID
+[03.01.2026, 22:43:05,248] [info] (Events) Event received APPLICATION_READY
+[03.01.2026, 22:43:05,250] [info] (Events) Event sent PROBABILITY_BUCKET 50-100
+[03.01.2026, 22:43:05,274] [info] (Events) Event received APPLICATION_THEME
+[03.01.2026, 22:43:05,394] [info] (UpdateLogger) Logger inside "electron-updater" package Update for version 5.82.0 is not available (latest version: 5.82.0, downgrade is disallowed).
+[03.01.2026, 22:43:05,394] [info] (UpdateLogger) Common config {
+  DEPRECATED_VERSIONS: '<=5.77.0',
+  UPDATE_URL: 'https://desktop.app.music.yandex.net/stable/'
+}
+[03.01.2026, 22:43:05,668] [info] (Common) Request to https://desktop.app.music.yandex.net/stable/release-notes/ru.json completed with status:  200
+[03.01.2026, 22:43:05,674] [info] (Events) Event sent LOAD_RELEASE_NOTES
+[03.01.2026, 22:43:06,115] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[03.01.2026, 22:43:06,959] [info] (Events) Event received PLAYER_STATE undefined false undefined
+[03.01.2026, 22:43:06,960] [info] (Events) Event received PLAYER_STATE undefined undefined true
+[03.01.2026, 22:43:07,196] [info] (Events) Event received PLAYER_STATE undefined true undefined
+[03.01.2026, 22:45:28,543] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[03.01.2026, 22:45:28,661] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[03.01.2026, 22:45:28,858] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[03.01.2026, 22:45:28,858] [info] (AppSuspension) App suspension blocker is enabled
+[03.01.2026, 22:45:28,991] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[03.01.2026, 22:45:28,992] [info] (AppSuspension) App suspension blocker is disabled
+[03.01.2026, 22:45:28,994] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[03.01.2026, 22:45:28,994] [info] (AppSuspension) App suspension blocker is disabled
+[03.01.2026, 22:45:29,039] [info] (Events) Event received PLAYER_STATE true undefined undefined
+[03.01.2026, 22:45:29,039] [info] (AppSuspension) App suspension blocker is disabled
+[03.01.2026, 22:45:29,039] [info] (AppSuspension) App suspension blocker is enabled
+[03.01.2026, 22:49:03,507] [info] (DeviceInfo) {
+  "memory": {
+    "freeMB": 14117,
+    "totalMB": 15921
+  },
+  "storage": {
+    "freeMB": 223952,
+    "totalMB": 478614
+  }
+}
+[03.01.2026, 22:49:03,549] [info] (Events) Event sent REFRESH_APPLICATION_DATA
+[03.01.2026, 22:49:03,550] [info] (Events) Event sent REFRESH_APPLICATION_DATA
+[03.01.2026, 22:49:03,822] [info] (UpdateLogger) Logger inside "electron-updater" package Checking for update
+[03.01.2026, 22:49:03,940] [info] (Events) Event handle GET_PASSPORT_LOGIN
+[03.01.2026, 22:49:03,941] [info] (Events) Event handle GET_YANDEX_UID
+[03.01.2026, 22:49:04,153] [info] (Events) Event received APPLICATION_READY
+[03.01.2026, 22:49:04,157] [info] (Events) Event sent PROBABILITY_BUCKET 50-100
+[03.01.2026, 22:49:04,188] [info] (Events) Event received APPLICATION_THEME
+[03.01.2026, 22:49:04,361] [info] (UpdateLogger) Logger inside "electron-updater" package Update for version 5.82.0 is not available (latest version: 5.82.0, downgrade is disallowed).
+[03.01.2026, 22:49:04,361] [info] (UpdateLogger) Common config {
+  DEPRECATED_VERSIONS: '<=5.77.0',
+  UPDATE_URL: 'https://desktop.app.music.yandex.net/stable/'
+}
+[03.01.2026, 22:49:04,802] [info] (Common) Request to https://desktop.app.music.yandex.net/stable/release-notes/ru.json completed with status:  200
+[03.01.2026, 22:49:04,808] [info] (Events) Event sent LOAD_RELEASE_NOTES
+[03.01.2026, 22:49:05,064] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[03.01.2026, 22:49:06,175] [info] (Events) Event received PLAYER_STATE undefined false undefined
+[03.01.2026, 22:49:06,176] [info] (Events) Event received PLAYER_STATE undefined undefined true
+[03.01.2026, 22:49:06,431] [info] (Events) Event received PLAYER_STATE undefined true undefined
+[03.01.2026, 22:50:40,548] [info] (Events) Event sent REFRESH_TRACKS_AVAILABILITY
+[03.01.2026, 22:50:40,549] [info] (Events) Event received TRACKS_AVAILABILITY_UPDATED
+[03.01.2026, 22:56:18,379] [info] (DeviceInfo) {
+  "memory": {
+    "freeMB": 14074,
+    "totalMB": 15921
+  },
+  "storage": {
+    "freeMB": 223930,
+    "totalMB": 478614
+  }
+}
+[03.01.2026, 22:56:18,409] [info] (Events) Event sent REFRESH_APPLICATION_DATA
+[03.01.2026, 22:56:18,410] [info] (Events) Event sent REFRESH_APPLICATION_DATA
+[03.01.2026, 22:56:18,698] [info] (UpdateLogger) Logger inside "electron-updater" package Checking for update
+[03.01.2026, 22:56:18,817] [info] (Events) Event handle GET_PASSPORT_LOGIN
+[03.01.2026, 22:56:18,818] [info] (Events) Event handle GET_YANDEX_UID
+[03.01.2026, 22:56:19,030] [info] (Events) Event received APPLICATION_READY
+[03.01.2026, 22:56:19,033] [info] (Events) Event sent PROBABILITY_BUCKET 50-100
+[03.01.2026, 22:56:19,060] [info] (Events) Event received APPLICATION_THEME
+[03.01.2026, 22:56:19,148] [info] (UpdateLogger) Logger inside "electron-updater" package Update for version 5.82.0 is not available (latest version: 5.82.0, downgrade is disallowed).
+[03.01.2026, 22:56:19,149] [info] (UpdateLogger) Common config {
+  DEPRECATED_VERSIONS: '<=5.77.0',
+  UPDATE_URL: 'https://desktop.app.music.yandex.net/stable/'
+}
+[03.01.2026, 22:56:19,849] [info] (Common) Request to https://desktop.app.music.yandex.net/stable/release-notes/ru.json completed with status:  200
+[03.01.2026, 22:56:19,854] [info] (Events) Event sent LOAD_RELEASE_NOTES
+[03.01.2026, 22:56:19,889] [info] (Events) Event received PLAYER_STATE false undefined undefined
+[03.01.2026, 22:56:20,875] [info] (Events) Event received PLAYER_STATE undefined false undefined
+[03.01.2026, 22:56:20,875] [info] (Events) Event received PLAYER_STATE undefined undefined true
+[03.01.2026, 22:56:21,099] [info] (Events) Event received PLAYER_STATE undefined true undefined
+[03.01.2026, 23:09:25,119] [info] (Events) Event sent REFRESH_APPLICATION_DATA

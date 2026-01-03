@@ -1,0 +1,125 @@
+{
+  "layer": "bottom",
+  "position": "up",
+  "height": 30,
+  "reload_style_on_change": true,
+  "modules-left": [ "hyprland/workspaces", "hyprland/language"],
+  "modules-center": ["tray"],
+  "modules-right": ["cpu", "memory", "pulseaudio", "clock"],
+
+"network": {
+    "interface": "wlp0s20f3",
+    "format": "{ifname}",
+    "format-wifi": "{essid}",
+    "format-disconnected": " - ",
+    "tooltip-format": "{ifname}",
+    "tooltip-format-wifi": "{essid}",
+    "tooltip-format-disconnected": "Disconnected",
+    "max-length": 50
+},
+
+"tray": {
+  "spacing": 20,
+},
+
+"pulseaudio": {
+    "format": "VOL:{volume}%",
+    "format-bluetooth": "HP:{volume}%",
+    "format-muted": "MT",
+    "format-icons": {
+        "headphone": "hp",
+        "hands-free": "hf",
+        "headset": "hs",
+        "phone": "ph",
+        "portable": "pr",
+        "car": "cr",
+        "default": ["", "", "", ""], 
+        "ignored-sinks": ["Easy Effects Sink"]
+        },
+    "scroll-step": 5.0,
+    "on-click": "pavucontrol -t 3",
+	"tooltip-format": "{icon} {desc} | {volume}%",
+    "smooth-scrolling-threshold": 1
+},
+
+"battery": {
+    "bat":"BAT0",
+    "states": {
+        "good": 95,
+        "warning": 30,
+        "critical": 15
+    },
+    "format": "{icon} {capacity}%",
+    "format-charging": "+{capacity}%",
+    "format-plugged": "B:{capacity}%",
+    "format-alt": "B:{time} ",
+    "format-icons": ["▁", "▃", "▄", "▆", "█"]
+},
+
+"hyprland/language": { "format-en": "US", "format-ru": "RU" },
+
+"hyprland/workspaces": {
+    "format": "{icon}",
+    "on-click": "activate",
+    "on-scroll-up": "hyprctl dispatch workspace e+1",
+    "on-scroll-down": "hyprctl dispatch workspace e-1",
+    "all-outputs": false,
+    "active-only": false,
+    "show-empty": false,
+},
+   
+"hyprland/window": {
+    "format": "{title}",
+    "max-length": 80,
+    "separate-outputs": true
+},
+
+"cpu": {
+    "interval": 2,
+    "format": "CPU:{usage}%",
+},
+
+"power-profiles-daemon": {
+    "format": "{icon}",
+    "tooltip-format": "Power profile: {profile}nDriver: {driver}",
+    "tooltip": true,
+    "format-icons": {
+        "default": "def",
+        "performance": "perf",
+        "balanced": "norm",
+        "power-saver": "save"
+    }
+},
+
+"clock": {
+    "format-alt": "{:%a}-{:%d} | {:%I}:{:%M}",
+    "format": "{:%a-%d | %I:%M}",
+    "timezones": [ "Europe/Moscow" ],
+    "tooltip-format": "<tt><small>{calendar}</small></tt>",
+    "calendar": {
+        "mode": "month",
+        "mode-mon-col": 3,
+        "on-scroll": 1,
+        "format": {
+            "months": "<span color='#a6e3a1'><b>{}</b></span>",
+            "days": "<span color='#cdd6f4'>{}</span>",
+            "weeks": "<span color='#74c7ec'><b>W{}</b></span>",
+            "weekdays": "<span color='#f9e2af'><b>{}</b></span>",
+            "today": "<span background='#f38ba8' color='#1e1e2e'><b>{}</b></span>"
+        }
+    },
+    "actions": {
+        "on-click": "tz_up",
+        "on-click-right": "tz_down",
+        "on-click-forward": "shift_up",
+        "on-click-backward": "shift_down",
+        "on-click-middle": "mode",
+    }
+},
+
+"memory": {
+    "interval": 5,
+    "format": "MEM:{used:0.1f}G",
+    "format-alt-click": "click",
+}
+}

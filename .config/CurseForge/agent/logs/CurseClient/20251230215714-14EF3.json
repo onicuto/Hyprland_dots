@@ -1,0 +1,4115 @@
+{
+  "Name": "CurseClient",
+  "Process": "Curse.Agent.Host",
+  "PID": 85747,
+  "Arguments": [
+    "/opt/curseforge/resources/app.asar.unpacked/plugins/curse/linux/Curse.Agent.Host",
+    "--port=56117",
+    "--to-port=56137",
+    "--pid=85282",
+    "--appDataPath=/home/onicuto/.config/CurseForge",
+    "--api-key=7ae403a6-3f8f-415d-9359-ece08ba45e2b",
+    "--clientId=Overwolf"
+  ],
+  "ProcessStart": "2025-12-30T18:57:14.0587962Z",
+  "Version": "1.294.0.29866",
+  "BuildDate": "2000-01-01T13:35:32Z",
+  "Start": "2025-12-30T21:57:14.4290278+03:00",
+  "Log": [
+{
+  "timestamp": "2025-12-30T21:57:14.4203829+03:00",
+  "level": "Warn",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Failed to modified BuiltInConverters: Cannot set initonly static field 'BuiltInConverters' after type 'Newtonsoft.Json.Serialization.DefaultContractResolver' is initialized."
+},
+{
+  "timestamp": "2025-12-30T21:57:14.4263365+03:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Startup Name: CurseForge, Version: 1.294.0.29866"
+},
+{
+  "timestamp": "2025-12-30T21:57:14.4270571+03:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Running Mods Agent with args: --port=56117,--to-port=56137,--pid=85282,--appDataPath=/home/onicuto/.config/CurseForge,--api-key=7ae403a6-3f8f-415d-9359-ece08ba45e2b,--clientId=Overwolf"
+},
+{
+  "timestamp": "2025-12-30T21:57:14.4305626+03:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "start monitor process: 85282"
+},
+{
+  "timestamp": "2025-12-30T21:57:15.3580436+03:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Unable to load game instances from disk. No file was found at: /home/onicuto/.config/CurseForge/agent/GameInstances/ModpackGameInstances.json"
+},
+{
+  "timestamp": "2025-12-30T21:57:15.4725606+03:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Mods Agent server started on port 56117"
+},
+{
+  "timestamp": "2025-12-30T21:57:15.5179563+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Web Socket session connected"
+},
+{
+  "timestamp": "2025-12-30T21:57:15.6719095+03:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Update simultaneous downloads '1' => '3'"
+},
+{
+  "timestamp": "2025-12-30T21:57:15.6739015+03:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "UpdateOverrideLauncher"
+},
+{
+  "timestamp": "2025-12-30T21:57:15.6752661+03:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initializing Curse Mods Agent"
+},
+{
+  "timestamp": "2025-12-30T21:57:15.6776272+03:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "update client Info ''..."
+},
+{
+  "timestamp": "2025-12-30T21:57:15.7204587+03:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-30T21:57:15.735859+03:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "AddonServiceClient - CfCore Url: https://api.curseforge.com"
+},
+{
+  "timestamp": "2025-12-30T21:57:16.1607362+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on GameDatabase -> GetRemoteItems"
+},
+{
+  "timestamp": "2025-12-30T21:57:16.1616507+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Getting Games from server"
+},
+{
+  "timestamp": "2025-12-30T21:57:16.5706575+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Loaded 26 games from the server"
+},
+{
+  "timestamp": "2025-12-30T21:57:16.5708595+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Saving games to local cache at /home/onicuto/.config/CurseForge/agent/gamesCache.json"
+},
+{
+  "timestamp": "2025-12-30T21:57:16.6088496+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "[GameRepository] Completed download of cache",
+  "data": {
+    "name": "Games",
+    "elapsedTime": "440.00"
+  }
+},
+{
+  "timestamp": "2025-12-30T21:57:16.6299486+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing local databases..."
+},
+{
+  "timestamp": "2025-12-30T21:57:16.6304295+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing game instances."
+},
+{
+  "timestamp": "2025-12-30T21:57:16.6484299+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Radium.Addons.AddonGameInstance'"
+},
+{
+  "timestamp": "2025-12-30T21:57:16.6489064+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Games.Minecraft.MinecraftGameInstance'"
+},
+{
+  "timestamp": "2025-12-30T21:57:16.6491989+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Radium.Addons.AddonGameInstance"
+},
+{
+  "timestamp": "2025-12-30T21:57:16.6506926+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] Unable to load game instances from disk. No file was found at: /home/onicuto/.config/CurseForge/agent/GameInstances/AddonGameInstance.json"
+},
+{
+  "timestamp": "2025-12-30T21:57:16.6508641+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Games.Minecraft.MinecraftGameInstance"
+},
+{
+  "timestamp": "2025-12-30T21:57:16.6509204+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] Unable to load game instances from disk. No file was found at: /home/onicuto/.config/CurseForge/agent/GameInstances/MinecraftGameInstance.json"
+},
+{
+  "timestamp": "2025-12-30T21:57:16.653668+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Game instances initialization completed. Operation took 22 ms"
+},
+{
+  "timestamp": "2025-12-30T21:57:16.6544158+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing Modpack instances."
+},
+{
+  "timestamp": "2025-12-30T21:57:16.6573275+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Running startup game detection"
+},
+{
+  "timestamp": "2025-12-30T21:57:16.6617104+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Performing quick game detection for 26 games..."
+},
+{
+  "timestamp": "2025-12-30T21:57:16.6670329+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Game instance count is 0, so we will scan all storage drives for games."
+},
+{
+  "timestamp": "2025-12-30T21:57:16.6670851+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Discovering games from search...",
+  "data": {
+    "Comprehensive": false,
+    "GamesInstancesCount": 0
+  }
+},
+{
+  "timestamp": "2025-12-30T21:57:16.686692+03:00",
+  "level": "Warn",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "An error occurred while looking for installed in games on the '/sys/fs/pstore' volume.",
+  "error": {
+    "message": "Access to the path '/sys/fs/pstore' is denied.",
+    "type": "System.UnauthorizedAccessException",
+    "stack": [
+      "System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String,Boolean)",
+      "System.IO.Enumeration.FileSystemEnumerator`1.Init()",
+      "System.IO.Enumeration.FileSystemEnumerator`1..ctor(String,Boolean,EnumerationOptions)",
+      "System.IO.Enumeration.FileSystemEnumerable`1+DelegateEnumerator..ctor(FileSystemEnumerable`1,Boolean)",
+      "System.IO.Enumeration.FileSystemEnumerable`1..ctor(String,FindTransform,EnumerationOptions,Boolean)",
+      "System.IO.Enumeration.FileSystemEnumerableFactory.DirectoryInfos(String,String,EnumerationOptions,Boolean)",
+      "System.IO.DirectoryInfo.InternalEnumerateInfos(String,String,SearchTarget,EnumerationOptions)",
+      "System.IO.DirectoryInfo.GetDirectories(String,EnumerationOptions)",
+      "System.IO.DirectoryInfo.GetDirectories()",
+      "Curse.Platform.Adapter.Detection.ScanFoldersResolver.Resolve(DriveInfo)",
+      "Curse.Radium.Games.GameService.DiscoverGamesFromSearch(Boolean,IEnumerable`1)",
+      "Curse.Radium.Games.GameService.DetectGames(Boolean,IEnumerable`1)",
+      "Curse.Radium.Games.GameService.DetectGames(Boolean,StorageDriveModel[])",
+      "Curse.Plugin.App.CurseAppWrapper.RunStartupGameDetection()",
+      "Curse.Plugin.App.CurseAppWrapper+<Init>d__28.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3+<InitializeAsync>d__8.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3+<UpdateCacheAsync>d__14.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "Curse.TechService.Games.GameRepository+<GetRemoteItemsAsync>d__16.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "Curse.Radium.Utilities.Retry+<DoAsync>d__5`1.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "Curse.TechService.Games.GameRepository+<<GetRemoteItemsAsync>b__16_0>d.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "Curse.TechService.AddonServiceClient+<GetGamesAsync>d__30.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "Curse.Server.Communication.BaseWebServiceClient+<GetAsync>d__14`1.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Http.HttpClient+<<SendAsync>g__Core|83_0>d.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Http.DecompressionHandler+<SendAsync>d__16.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Http.RedirectHandler+<SendAsync>d__4.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Http.HttpConnectionPool+<SendWithVersionDetectionAndRetryAsync>d__89.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Http.HttpConnection+<SendAsync>d__57.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.ThreadPool+<>c.<.cctor>b__52_0(Object)",
+      "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1.SignalCompletion()",
+      "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1.SetResult(TResult)",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1+StateMachineBox.SetResult(TResult)",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Security.SslStream+<ReadAsyncInternal>d__163`1.MoveNext()",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1+StateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1+StateMachineBox`1.MoveNext()",
+      "System.Threading.ThreadPool+<>c.<.cctor>b__52_0(Object)",
+      "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1.SignalCompletion()",
+      "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1.SetResult(TResult)",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1+StateMachineBox.SetResult(TResult)",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Security.SslStream+<EnsureFullTlsFrameAsync>d__161`1.MoveNext()",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1+StateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1+StateMachineBox`1.MoveNext()",
+      "System.Threading.ThreadPool+<>c.<.cctor>b__52_0(Object)",
+      "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1.SignalCompletion()",
+      "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1.SetResult(TResult)",
+      "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs)",
+      "System.Net.Sockets.SocketAsyncEventArgs.OnCompletedInternal()",
+      "System.Net.Sockets.SocketAsyncEventArgs.FinishOperationAsyncSuccess(Int32,SocketFlags)",
+      "System.Net.Sockets.SocketAsyncEventArgs.CompletionCallback(Int32,SocketFlags,SocketError)",
+      "System.Net.Sockets.SocketAsyncEventArgs.TransferCompletionCallbackCore(Int32,Memory`1,SocketFlags,SocketError)",
+      "System.Net.Sockets.SocketAsyncContext+BufferMemoryReceiveOperation.InvokeCallback(Boolean)",
+      "System.Net.Sockets.SocketAsyncContext+OperationQueue`1.ProcessAsyncOperation(TOperation)",
+      "System.Net.Sockets.SocketAsyncContext.ProcessAsyncReadOperation(ReadOperation)",
+      "System.Net.Sockets.SocketAsyncContext+ReadOperation.System.Threading.IThreadPoolWorkItem.Execute()",
+      "System.Net.Sockets.SocketAsyncContext+AsyncOperation.Process()",
+      "System.Net.Sockets.SocketAsyncContext.HandleEvents(SocketEvents)",
+      "System.Net.Sockets.SocketAsyncEngine.System.Threading.IThreadPoolWorkItem.Execute()",
+      "System.Threading.ThreadPoolWorkQueue.DispatchWorkItem(Object,Thread)",
+      "System.Threading.ThreadPoolWorkQueue.Dispatch()",
+      "System.Threading.PortableThreadPool+WorkerThread.WorkerDoWork(PortableThreadPool,Boolean&)",
+      "System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()",
+      "System.Threading.Thread+StartHelper.RunWorker()",
+      "System.Threading.Thread+StartHelper.Run()",
+      "System.Threading.Thread.StartCallback()"
+    ],
+    "innerError": {
+      "message": "Permission denied",
+      "type": "System.IO.IOException"
+    }
+  }
+},
+{
+  "timestamp": "2025-12-30T21:57:16.7044185+03:00",
+  "level": "Warn",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "An error occurred while looking for installed in games on the '/sys/fs/bpf' volume.",
+  "error": {
+    "message": "Access to the path '/sys/fs/bpf' is denied.",
+    "type": "System.UnauthorizedAccessException",
+    "stack": [
+      "System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String,Boolean)",
+      "System.IO.Enumeration.FileSystemEnumerator`1.Init()",
+      "System.IO.Enumeration.FileSystemEnumerator`1..ctor(String,Boolean,EnumerationOptions)",
+      "System.IO.Enumeration.FileSystemEnumerable`1+DelegateEnumerator..ctor(FileSystemEnumerable`1,Boolean)",
+      "System.IO.Enumeration.FileSystemEnumerable`1..ctor(String,FindTransform,EnumerationOptions,Boolean)",
+      "System.IO.Enumeration.FileSystemEnumerableFactory.DirectoryInfos(String,String,EnumerationOptions,Boolean)",
+      "System.IO.DirectoryInfo.InternalEnumerateInfos(String,String,SearchTarget,EnumerationOptions)",
+      "System.IO.DirectoryInfo.GetDirectories(String,EnumerationOptions)",
+      "System.IO.DirectoryInfo.GetDirectories()",
+      "Curse.Platform.Adapter.Detection.ScanFoldersResolver.Resolve(DriveInfo)",
+      "Curse.Radium.Games.GameService.DiscoverGamesFromSearch(Boolean,IEnumerable`1)",
+      "Curse.Radium.Games.GameService.DetectGames(Boolean,IEnumerable`1)",
+      "Curse.Radium.Games.GameService.DetectGames(Boolean,StorageDriveModel[])",
+      "Curse.Plugin.App.CurseAppWrapper.RunStartupGameDetection()",
+      "Curse.Plugin.App.CurseAppWrapper+<Init>d__28.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3+<InitializeAsync>d__8.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3+<UpdateCacheAsync>d__14.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "Curse.TechService.Games.GameRepository+<GetRemoteItemsAsync>d__16.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "Curse.Radium.Utilities.Retry+<DoAsync>d__5`1.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "Curse.TechService.Games.GameRepository+<<GetRemoteItemsAsync>b__16_0>d.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "Curse.TechService.AddonServiceClient+<GetGamesAsync>d__30.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "Curse.Server.Communication.BaseWebServiceClient+<GetAsync>d__14`1.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Http.HttpClient+<<SendAsync>g__Core|83_0>d.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Http.DecompressionHandler+<SendAsync>d__16.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Http.RedirectHandler+<SendAsync>d__4.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Http.HttpConnectionPool+<SendWithVersionDetectionAndRetryAsync>d__89.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Http.HttpConnection+<SendAsync>d__57.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.ThreadPool+<>c.<.cctor>b__52_0(Object)",
+      "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1.SignalCompletion()",
+      "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1.SetResult(TResult)",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1+StateMachineBox.SetResult(TResult)",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Security.SslStream+<ReadAsyncInternal>d__163`1.MoveNext()",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1+StateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1+StateMachineBox`1.MoveNext()",
+      "System.Threading.ThreadPool+<>c.<.cctor>b__52_0(Object)",
+      "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1.SignalCompletion()",
+      "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1.SetResult(TResult)",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1+StateMachineBox.SetResult(TResult)",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Security.SslStream+<EnsureFullTlsFrameAsync>d__161`1.MoveNext()",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1+StateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1+StateMachineBox`1.MoveNext()",
+      "System.Threading.ThreadPool+<>c.<.cctor>b__52_0(Object)",
+      "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1.SignalCompletion()",
+      "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1.SetResult(TResult)",
+      "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs)",
+      "System.Net.Sockets.SocketAsyncEventArgs.OnCompletedInternal()",
+      "System.Net.Sockets.SocketAsyncEventArgs.FinishOperationAsyncSuccess(Int32,SocketFlags)",
+      "System.Net.Sockets.SocketAsyncEventArgs.CompletionCallback(Int32,SocketFlags,SocketError)",
+      "System.Net.Sockets.SocketAsyncEventArgs.TransferCompletionCallbackCore(Int32,Memory`1,SocketFlags,SocketError)",
+      "System.Net.Sockets.SocketAsyncContext+BufferMemoryReceiveOperation.InvokeCallback(Boolean)",
+      "System.Net.Sockets.SocketAsyncContext+OperationQueue`1.ProcessAsyncOperation(TOperation)",
+      "System.Net.Sockets.SocketAsyncContext.ProcessAsyncReadOperation(ReadOperation)",
+      "System.Net.Sockets.SocketAsyncContext+ReadOperation.System.Threading.IThreadPoolWorkItem.Execute()",
+      "System.Net.Sockets.SocketAsyncContext+AsyncOperation.Process()",
+      "System.Net.Sockets.SocketAsyncContext.HandleEvents(SocketEvents)",
+      "System.Net.Sockets.SocketAsyncEngine.System.Threading.IThreadPoolWorkItem.Execute()",
+      "System.Threading.ThreadPoolWorkQueue.DispatchWorkItem(Object,Thread)",
+      "System.Threading.ThreadPoolWorkQueue.Dispatch()",
+      "System.Threading.PortableThreadPool+WorkerThread.WorkerDoWork(PortableThreadPool,Boolean&)",
+      "System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()",
+      "System.Threading.Thread+StartHelper.RunWorker()",
+      "System.Threading.Thread+StartHelper.Run()",
+      "System.Threading.Thread.StartCallback()"
+    ],
+    "innerError": {
+      "message": "Permission denied",
+      "type": "System.IO.IOException"
+    }
+  }
+},
+{
+  "timestamp": "2025-12-30T21:57:16.7106441+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Completed startup game detection. We have a total of 0 detected game instances. Operation took 53 ms"
+},
+{
+  "timestamp": "2025-12-30T21:57:16.7122686+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-12-30T21:57:16.712869+03:00",
+  "level": "Warn",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "/home/onicuto/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2025-12-30T21:57:16.7145801+03:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Refreshing Minecraft instances list"
+},
+{
+  "timestamp": "2025-12-30T21:57:16.7149311+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing tasks"
+},
+{
+  "timestamp": "2025-12-30T21:57:16.7185292+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Discord RPC client initialized successfully."
+},
+{
+  "timestamp": "2025-12-30T21:57:16.7186108+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing Periodic Tasks"
+},
+{
+  "timestamp": "2025-12-30T21:57:16.7313655+03:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-12-30T21:57:16.731409+03:00",
+  "level": "Warn",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "/home/onicuto/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2025-12-30T21:57:16.9942554+03:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-12-30T21:57:16.9942934+03:00",
+  "level": "Warn",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "/home/onicuto/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2025-12-30T21:57:17.1746346+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "[ModLoaderRepository] Completed download of cache",
+  "data": {
+    "name": "Minecraft Modloaders",
+    "elapsedTime": "404.00"
+  }
+},
+{
+  "timestamp": "2025-12-30T21:57:17.3058184+03:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-12-30T21:57:17.3058444+03:00",
+  "level": "Warn",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "/home/onicuto/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2025-12-30T21:57:17.3132125+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "[MinecraftVersionDatabase] Completed download of cache",
+  "data": {
+    "name": "Minecraft Versions",
+    "elapsedTime": "73.00"
+  }
+},
+{
+  "timestamp": "2025-12-30T21:57:17.7598403+03:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Discord RPC client is ready."
+},
+{
+  "timestamp": "2025-12-30T21:57:41.6561424+03:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "update client Info 'ey'..."
+},
+{
+  "timestamp": "2025-12-30T21:57:41.6565329+03:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Performing addon sync..."
+},
+{
+  "timestamp": "2025-12-30T21:57:42.1008912+03:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[AddonSyncManager] Got sync profile Successfully. Got 0 sync game instances"
+},
+{
+  "timestamp": "2025-12-30T21:57:47.559618+03:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-12-30T21:57:47.5596333+03:00",
+  "level": "Warn",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "/home/onicuto/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2025-12-30T21:57:47.5622189+03:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Getting modpacks for game 432"
+},
+{
+  "timestamp": "2025-12-30T21:57:47.6189872+03:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-12-30T21:57:47.618999+03:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "/home/onicuto/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2025-12-30T21:59:14.0542667+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Beginning Minecraft launcher installation."
+},
+{
+  "timestamp": "2025-12-30T21:59:14.0577217+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "InstallTask f2f5f4b4-336b-4176-8f34-db4e5c6eec2b MinecraftLauncherInstallTask started..."
+},
+{
+  "timestamp": "2025-12-30T21:59:14.0586641+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Beginning Minecraft Launcher install"
+},
+{
+  "timestamp": "2025-12-30T21:59:14.0593493+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "MinecraftRoot: /home/onicuto/Documents/curseforge/minecraft"
+},
+{
+  "timestamp": "2025-12-30T21:59:14.0593509+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "InstanceRoot: /home/onicuto/Documents/curseforge/minecraft/Instances"
+},
+{
+  "timestamp": "2025-12-30T21:59:14.0593514+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "InstallRoot: /home/onicuto/Documents/curseforge/minecraft/Install"
+},
+{
+  "timestamp": "2025-12-30T21:59:14.0594121+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "VersionRoot: /home/onicuto/Documents/curseforge/minecraft/Install/versions"
+},
+{
+  "timestamp": "2025-12-30T21:59:14.0594651+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "DownloadRoot: /home/onicuto/Documents/curseforge/minecraft/Downloads"
+},
+{
+  "timestamp": "2025-12-30T21:59:14.0599355+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Checking for existing installation",
+  "data": {
+    "Path": "/home/onicuto/Documents/curseforge/minecraft/Install/minecraft-launcher"
+  }
+},
+{
+  "timestamp": "2025-12-30T21:59:14.3069029+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading launcher https://launcher.mojang.com/download/Minecraft.tar.gz"
+},
+{
+  "timestamp": "2025-12-30T21:59:14.3117175+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading: https://launcher.mojang.com/download/Minecraft.tar.gz to /tmp/tsy1pnpt.idd/launcher.tar.gz"
+},
+{
+  "timestamp": "2025-12-30T21:59:14.9532258+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Extracting launcher.tar.gz"
+},
+{
+  "timestamp": "2025-12-30T21:59:14.9817265+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-12-30T21:59:14.9817476+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "/home/onicuto/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-12-30T21:59:14.9820124+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "InstallTask f2f5f4b4-336b-4176-8f34-db4e5c6eec2b MinecraftLauncherInstallTask completed"
+},
+{
+  "timestamp": "2025-12-30T21:59:14.9820629+03:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Refreshing Minecraft instances list"
+},
+{
+  "timestamp": "2025-12-30T21:59:14.9820838+03:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Resolving Minecraft instances list from /home/onicuto/Documents/curseforge/minecraft/Instances"
+},
+{
+  "timestamp": "2025-12-30T21:59:14.9836017+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-12-30T21:59:14.983611+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "/home/onicuto/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-12-30T21:59:14.9901104+03:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-12-30T21:59:14.9901334+03:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "/home/onicuto/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-12-30T21:59:14.990223+03:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-12-30T21:59:14.9902319+03:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "/home/onicuto/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-12-30T21:59:14.9904963+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-12-30T21:59:14.9905144+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "/home/onicuto/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-12-30T21:59:19.2135435+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Downloading: https://content.overwolf.com/curseforge/app/games/minecraft/assets/profileimages/CF-1.webp to /home/onicuto/.config/CurseForge/CfApp_Assets/ModpackImages/default/CF-1.webp"
+},
+{
+  "timestamp": "2025-12-30T21:59:19.9216816+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading: https://content.overwolf.com/curseforge/app/games/minecraft/assets/profileimages/CF-2.webp to /home/onicuto/.config/CurseForge/CfApp_Assets/ModpackImages/default/CF-2.webp"
+},
+{
+  "timestamp": "2025-12-30T21:59:20.0703677+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Downloading: https://content.overwolf.com/curseforge/app/games/minecraft/assets/profileimages/CF-3.webp to /home/onicuto/.config/CurseForge/CfApp_Assets/ModpackImages/default/CF-3.webp"
+},
+{
+  "timestamp": "2025-12-30T21:59:20.2254737+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Downloading: https://content.overwolf.com/curseforge/app/games/minecraft/assets/profileimages/CF-4.webp to /home/onicuto/.config/CurseForge/CfApp_Assets/ModpackImages/default/CF-4.webp"
+},
+{
+  "timestamp": "2025-12-30T21:59:20.3833441+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading: https://content.overwolf.com/curseforge/app/games/minecraft/assets/profileimages/CF-5.webp to /home/onicuto/.config/CurseForge/CfApp_Assets/ModpackImages/default/CF-5.webp"
+},
+{
+  "timestamp": "2025-12-30T21:59:20.5416491+03:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading: https://content.overwolf.com/curseforge/app/games/minecraft/assets/profileimages/CF-6.webp to /home/onicuto/.config/CurseForge/CfApp_Assets/ModpackImages/default/CF-6.webp"
+},
+{
+  "timestamp": "2025-12-30T21:59:20.6902295+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading: https://content.overwolf.com/curseforge/app/games/minecraft/assets/profileimages/CF-7.webp to /home/onicuto/.config/CurseForge/CfApp_Assets/ModpackImages/default/CF-7.webp"
+},
+{
+  "timestamp": "2025-12-30T21:59:20.8456334+03:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading: https://content.overwolf.com/curseforge/app/games/minecraft/assets/profileimages/CF-8.webp to /home/onicuto/.config/CurseForge/CfApp_Assets/ModpackImages/default/CF-8.webp"
+},
+{
+  "timestamp": "2025-12-30T21:59:21.4853689+03:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading: https://content.overwolf.com/curseforge/app/games/minecraft/assets/profileimages/CF-9.webp to /home/onicuto/.config/CurseForge/CfApp_Assets/ModpackImages/default/CF-9.webp"
+},
+{
+  "timestamp": "2025-12-30T21:59:21.5420341+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Getting modpacks for game 432"
+},
+{
+  "timestamp": "2025-12-30T21:59:21.604077+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Getting modpacks for game 432"
+},
+{
+  "timestamp": "2025-12-30T21:59:24.2533126+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on InstalledAddonDatabase -> FetchAddonWithRetries"
+},
+{
+  "timestamp": "2025-12-30T21:59:24.5803749+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Creating new instance at: /home/onicuto/Documents/curseforge/minecraft/Instances/All the Mods 10 - ATM10/"
+},
+{
+  "timestamp": "2025-12-30T21:59:24.5811304+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddonFileById"
+},
+{
+  "timestamp": "2025-12-30T21:59:24.8240355+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "[Modpack Install Flow] Installing file - FileId: 7361423, FileName: All the Mods 10-5.4.zip, DownloadURL: https://edge.forgecdn.net/files/7361/423/All%20the%20Mods%2010-5.4.zip"
+},
+{
+  "timestamp": "2025-12-30T21:59:24.8766443+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Starting modpack 'All the Mods 10 - ATM10' install."
+},
+{
+  "timestamp": "2025-12-30T21:59:24.8938854+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Getting modpacks for game 432"
+},
+{
+  "timestamp": "2025-12-30T21:59:24.8993572+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Getting modpacks for game 432"
+},
+{
+  "timestamp": "2025-12-30T21:59:24.9012371+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Getting modpacks for game 432"
+},
+{
+  "timestamp": "2025-12-30T21:59:24.9023206+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Getting modpacks for game 432"
+},
+{
+  "timestamp": "2025-12-30T21:59:24.9032352+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Getting modpacks for game 432"
+},
+{
+  "timestamp": "2025-12-30T21:59:24.9042928+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Getting modpacks for game 432"
+},
+{
+  "timestamp": "2025-12-30T21:59:24.9053042+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Getting modpacks for game 432"
+},
+{
+  "timestamp": "2025-12-30T21:59:25.1477043+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7361/423/All%20the%20Mods%2010-5.4.zip"
+},
+{
+  "timestamp": "2025-12-30T21:59:25.1558591+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7361/423/All%20the%20Mods%2010-5.4.zip to /tmp/CF_W5XTYEB8a03igdYLkUxJg/NwN04OJlFUypVUhVojWA/1.zip"
+},
+{
+  "timestamp": "2025-12-30T21:59:26.8297702+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Saving to disk (a)."
+},
+{
+  "timestamp": "2025-12-30T21:59:26.8312019+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2025-12-30T21:59:26.9306456+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 99ms"
+},
+{
+  "timestamp": "2025-12-30T21:59:26.9309829+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving GameInstance DB with 0 items"
+},
+{
+  "timestamp": "2025-12-30T21:59:26.9606406+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved GameInstance DB, which took 29ms"
+},
+{
+  "timestamp": "2025-12-30T21:59:45.5110107+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on UnzipFileInstallTask.Run -> ZipUtils.ExtractZip"
+},
+{
+  "timestamp": "2025-12-30T21:59:46.9672642+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Downloaded file for project All the Mods 10 - ATM10 - (925200) in 21820ms"
+},
+{
+  "timestamp": "2025-12-30T21:59:47.3557116+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2025-12-30T21:59:47.7607058+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Verifying Minecraft version: 1.21.1"
+},
+{
+  "timestamp": "2025-12-30T21:59:47.762046+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Creating version path: 1.21.1"
+},
+{
+  "timestamp": "2025-12-30T21:59:47.7620908+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Creating inheritsPath path: 1.21.1"
+},
+{
+  "timestamp": "2025-12-30T21:59:47.7621111+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-12-30T21:59:47.7621175+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "/home/onicuto/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-12-30T21:59:47.762124+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Minecraft version 1.21.1 is not installed. Will now install it."
+},
+{
+  "timestamp": "2025-12-30T21:59:47.7633282+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Downloading: https://piston-data.mojang.com/v1/objects/30c73b1c5da787909b2f73340419fdf13b9def88/client.jar to /home/onicuto/Documents/curseforge/minecraft/Install/versions/1.21.1/1.21.1.jar"
+},
+{
+  "timestamp": "2025-12-30T21:59:51.005963+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Downloading: https://piston-meta.mojang.com/v1/packages/94f420093e771cd1e72614184736b044c747a8df/1.21.1.json to /home/onicuto/Documents/curseforge/minecraft/Install/versions/1.21.1/1.21.1.json"
+},
+{
+  "timestamp": "2025-12-30T21:59:51.2781653+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2025-12-30T21:59:52.2431526+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetModFilesFromServer"
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4222361+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 419699."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.422251+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 306770."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4222519+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 223794."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4222523+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 238222."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4222542+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 957920."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4222546+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 223794."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.422255+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 223794."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4222556+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 532610."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4222566+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 401955."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4222575+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 855414."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4222579+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 388172."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4222587+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1063926."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4222591+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 898963."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4222594+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 306770."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4222598+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 283644."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4222601+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 986583."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4222607+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 283644."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4222623+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 898963."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4222627+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 283644."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4222633+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 283644."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4222638+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 268560."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4222641+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 223794."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4222647+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1173950."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4222656+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 223794."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4222661+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 957920."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4222665+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1173950."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.422267+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 401955."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4222673+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 223794."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4222678+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 309927."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4222686+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 401955."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4222689+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 361026."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4222699+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 388800."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4222703+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 401955."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223045+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 401955."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223055+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 228525."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223059+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1023259."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223075+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1023259."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223079+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 228525."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223085+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1023259."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223088+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 228525."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223094+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 228525."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223097+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1023259."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223109+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 242818."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223117+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 243076."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223134+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 455508."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223144+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 328085."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223149+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1216624."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223155+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 328085."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223161+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 328085."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223167+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 388172."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223171+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 570073."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223175+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 714059."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223188+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 242818."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223198+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 231382."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223203+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 499980."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223212+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 287342."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223218+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 223794."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223226+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 570073."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.422323+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 714059."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223234+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 388172."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223239+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 242818."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223246+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 223794."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.422325+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 459929."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223258+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 243076."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223268+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 283644."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223273+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 283644."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223283+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 283644."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223293+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 416935."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223298+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 915115."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223303+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 915115."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223311+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 419699."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223315+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 404468."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223319+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 404465."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223325+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 419699."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223329+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 404465."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223334+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 419699."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223339+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 404465."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223345+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 419699."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223349+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 404465."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223354+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 419699."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223363+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 404465."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.422337+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 404465."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223375+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 419699."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.422338+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 289412."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223387+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 287342."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223393+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 898963."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223397+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 283644."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223404+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 854949."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223411+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 268560."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223416+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 570073."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223425+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 283644."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223433+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 231951."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223437+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 223794."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223449+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 266515."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223453+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 287342."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223459+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1067672."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223462+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 405388."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223478+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 236307."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223482+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 251389."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223486+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 232758."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223492+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 243076."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223502+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 272335."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223507+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 658587."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223516+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 388172."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.422352+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 309927."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.422353+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 268560."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223535+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 238222."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223542+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 416294."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223547+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 238086."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223554+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 520110."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223558+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 638111."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223568+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1001614."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223572+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 309927."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223577+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 223794."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223589+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 268560."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223599+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 268560."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223605+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 268560."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223609+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 250294."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223614+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 268560."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.422362+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 326652."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223626+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 223794."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223632+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 266515."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223643+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 908741."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223647+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 455508."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223656+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 387638."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.422366+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 282001."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223665+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 558000."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223671+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 298744."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223675+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 522992."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223686+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 246640."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.422369+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 272335."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223695+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 306770."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223705+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 351264."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223709+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 419699."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223714+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 361026."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223718+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 238086."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223725+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1023259."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223731+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 419699."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223735+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 532610."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223748+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 223794."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223752+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 388800."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223763+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 238086."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.422377+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 348521."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223774+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1173950."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223783+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 328085."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223786+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 558998."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223791+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 456956."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223795+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 558998."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223802+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 243076."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223807+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 243076."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223811+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 309927."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223817+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 238222."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.422382+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 243076."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223826+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 243076."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.422383+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 268560."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223841+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 243076."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223846+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 940057."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223852+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 233105."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223857+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 233105."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223863+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 233105."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223867+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 326041."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223872+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 233105."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223877+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 326041."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223882+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 326041."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223886+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 233105."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223891+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 326041."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223895+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 233105."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223903+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 499980."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223908+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1184570."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223916+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 297039."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223923+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 242998."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223928+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 242998."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223936+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 422301."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.422394+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 618298."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223944+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 328085."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223949+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 619320."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223953+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 618298."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223957+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 328085."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223963+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 904394."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223967+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 266515."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223971+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 223794."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223977+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 306770."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223981+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 287342."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223993+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 714059."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4223997+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 351264."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224001+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 570073."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224007+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 388172."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224011+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 538392."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224017+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 570073."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224024+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 283644."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224033+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 287342."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.422404+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 283644."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224045+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 233105."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224049+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 326041."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224055+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 653789."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224059+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 653786."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224069+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 653786."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224073+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 653789."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224078+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 653786."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224086+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1015100."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224092+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1015100."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224097+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1015100."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224102+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1015100."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224107+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1015100."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224113+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1015100."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224118+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1015100."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224123+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1015100."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224129+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1015100."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224134+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1015100."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224145+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 936015."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224152+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 320926."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224159+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 388172."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224163+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 223794."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224167+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 957920."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224172+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 282001."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.422418+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 388172."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224184+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 405593."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.422419+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 499980."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224198+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 401955."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224202+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 309927."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224207+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 401955."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224214+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 401955."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224224+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 328085."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224237+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 667299."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224246+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 570073."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224264+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 841890."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.422427+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 419699."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224283+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1208896."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224294+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 232758."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224301+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 454372."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224305+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 854949."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.422431+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 326652."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224317+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 858542."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224322+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 531761."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224329+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 531761."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224337+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 348521."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224348+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 638508."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224354+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 968432."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224358+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 968432."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224368+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 367706."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224373+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 410295."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224383+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1023259."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224387+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 228525."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224392+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 454372."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224396+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 438332."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224403+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 232758."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.422441+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1067672."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224414+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 405388."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224419+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 223794."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224423+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1173950."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224426+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 957920."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224432+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 243076."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224436+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 638508."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224447+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 247921."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224453+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 551763."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224457+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 419699."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224461+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 841890."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224466+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 938643."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.422447+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 410295."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224475+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 531761."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224484+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 419699."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.422449+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 419699."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224494+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 404465."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224498+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 404468."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224504+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 419699."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224508+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 404465."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224519+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 351264."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224538+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 348521."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224546+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1072905."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.422455+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1010827."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224561+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 287342."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224566+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 247007."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.422457+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 232758."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224575+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 232758."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224579+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 236307."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224584+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 251389."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224588+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 232758."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224592+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 236307."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224597+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 236307."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224606+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 232758."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224614+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 309927."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224618+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 898963."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224622+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1145462."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224627+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 438332."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224631+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 454372."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224647+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 238222."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224663+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 410295."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224671+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1158094."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224677+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1067672."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224681+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1173950."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224711+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1130473."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224716+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 306770."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.422472+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 388172."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224726+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 522992."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.422473+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 900364."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224734+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 527361."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224738+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 303278."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224742+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 298744."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224749+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1173950."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224755+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 377897."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224759+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 957920."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224765+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1337167."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.422477+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1337167."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224776+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1337167."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224786+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1337167."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224797+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 272335."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224801+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 246640."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224806+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 272335."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224812+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 531761."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224819+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 401955."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224825+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 538392."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.422483+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 661293."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224834+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 388172."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.422484+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 419699."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224845+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 693313."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224849+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 940057."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224853+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 962544."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224861+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 388172."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224868+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 419699."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224872+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 841890."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224876+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 388172."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.422488+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 532610."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224893+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 419699."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224905+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 312353."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224909+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 445274."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224916+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 438332."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.422492+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 854949."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224924+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 454372."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224929+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 549225."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224935+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 916747."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224944+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 309927."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224956+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 576589."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224964+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 454372."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224968+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 438332."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224976+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 618298."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224984+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 618298."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224989+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 619320."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224993+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 618298."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4224999+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 401955."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4225004+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 576589."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4225013+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 527361."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4225017+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 522992."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4225027+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 245506."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4225035+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 499980."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4225047+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 438332."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4225052+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 454372."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4225057+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 531761."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4225063+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 856996."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.422507+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1230483."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4225074+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 243076."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4225083+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 570073."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4225087+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 667299."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4225092+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1015100."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4225097+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 531761."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4225108+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 438332."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4225112+03:00",
+  "level": "Warn",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 454372."
+},
+{
+  "timestamp": "2025-12-30T21:59:52.4243334+03:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2025-12-30T21:59:52.5914397+03:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloading: https://neoforged.forgecdn.net/releases/net/neoforged/fancymodloader/earlydisplay/4.0.42/earlydisplay-4.0.42.jar to /home/onicuto/Documents/curseforge/minecraft/Install/libraries/net/neoforged/fancymodloader/earlydisplay/4.0.42/earlydisplay-4.0.42.jar"
+},
+{
+  "timestamp": "2025-12-30T22:00:46.3950123+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-12-30T22:00:46.395029+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "/home/onicuto/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-12-30T22:01:16.787153+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-12-30T22:01:16.7871756+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "/home/onicuto/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-12-30T22:01:16.7875826+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Getting modpacks for game 432"
+},
+{
+  "timestamp": "2025-12-30T22:06:03.9039749+03:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Curse Mods Agent is shutting down"
+},
+{
+  "timestamp": "2025-12-30T22:06:03.9040675+03:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Shutting down periodic tasks"
+},
+{
+  "timestamp": "2025-12-30T22:06:03.9041565+03:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Disabling periodic timers"
+},
+{
+  "timestamp": "2025-12-30T22:06:03.9045203+03:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2025-12-30T22:06:03.9045263+03:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2025-12-30T22:06:03.9071854+03:00",
+  "level": "Warn",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Failed to cancel task during shutdown!",
+  "error": {
+    "message": "The operation was canceled.",
+    "type": "System.OperationCanceledException",
+    "stack": [
+      "Curse.Radium.InstallManagement.BaseInstallTask.CheckCancellation()",
+      "Curse.Radium.InstallManagement.BaseInstallTask.Cancel()",
+      "Curse.Radium.InstallManagement.InstallTaskManager.Shutdown()",
+      "Curse.Radium.InstallManagement.InstallTaskManager.ShutdownAll()",
+      "Curse.Plugin.App.CurseAppWrapper.Shutdown()",
+      "Curse.Plugin.App.CurseAppWrapper.Dispose(Boolean)",
+      "Curse.Plugin.App.CurseAppWrapper.Dispose()",
+      "Curse.Plugin.API.Handlers.ShutdownRequestHandler+<Handle>d__3.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.TaskSchedulerAwaitTaskContinuation+<>c.<Run>b__2_0(Object)",
+      "System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task&,Thread)",
+      "System.Threading.Tasks.Task.ExecuteEntry()",
+      "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair+ConcurrentExclusiveTaskScheduler.TryExecuteTaskInline(Task,Boolean)",
+      "System.Threading.Tasks.TaskScheduler.TryRunInline(Task,Boolean)",
+      "System.Threading.Tasks.TaskContinuation.InlineIfPossibleOrElseQueue(Task,Boolean)",
+      "System.Threading.Tasks.TaskSchedulerAwaitTaskContinuation.Run(Task,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()",
+      "Curse.TechService.Projects.Analytics.ReusedDiskSizeService+<SendAnalyticsAsync>d__8.MoveNext()",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.TaskSchedulerAwaitTaskContinuation+<>c.<Run>b__2_0(Object)",
+      "System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task&,Thread)",
+      "System.Threading.Tasks.Task.ExecuteEntry()",
+      "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair+ConcurrentExclusiveTaskScheduler.TryExecuteTaskInline(Task,Boolean)",
+      "System.Threading.Tasks.TaskScheduler.TryRunInline(Task,Boolean)",
+      "System.Threading.Tasks.TaskContinuation.InlineIfPossibleOrElseQueue(Task,Boolean)",
+      "System.Threading.Tasks.TaskSchedulerAwaitTaskContinuation.Run(Task,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()",
+      "Curse.TechService.Projects.Analytics.ReusedDiskSizeService+<SendAnalyticsEvents>d__9.MoveNext()",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.TaskSchedulerAwaitTaskContinuation+<>c.<Run>b__2_0(Object)",
+      "System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task&,Thread)",
+      "System.Threading.Tasks.Task.ExecuteEntry()",
+      "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair+ConcurrentExclusiveTaskScheduler.TryExecuteTaskInline(Task,Boolean)",
+      "System.Threading.Tasks.TaskScheduler.TryRunInline(Task,Boolean)",
+      "System.Threading.Tasks.TaskContinuation.InlineIfPossibleOrElseQueue(Task,Boolean)",
+      "System.Threading.Tasks.TaskSchedulerAwaitTaskContinuation.Run(Task,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "Curse.TechService.Analytics.AnalyticsService+<TrySendEventAsync>d__7.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.TaskSchedulerAwaitTaskContinuation+<>c.<Run>b__2_0(Object)",
+      "System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task&,Thread)",
+      "System.Threading.Tasks.Task.ExecuteEntry()",
+      "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair+ConcurrentExclusiveTaskScheduler.TryExecuteTaskInline(Task,Boolean)",
+      "System.Threading.Tasks.TaskScheduler.TryRunInline(Task,Boolean)",
+      "System.Threading.Tasks.TaskContinuation.InlineIfPossibleOrElseQueue(Task,Boolean)",
+      "System.Threading.Tasks.TaskSchedulerAwaitTaskContinuation.Run(Task,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "Curse.TechService.Analytics.AnalyticsService+<SendAsync>d__9.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.TaskSchedulerAwaitTaskContinuation+<>c.<Run>b__2_0(Object)",
+      "System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task&,Thread)",
+      "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.ProcessExclusiveTasks()",
+      "System.Threading.ThreadPoolWorkQueue.Dispatch()",
+      "System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()",
+      "System.Threading.Thread+StartHelper.RunWorker()",
+      "System.Threading.Thread+StartHelper.Run()",
+      "System.Threading.Thread.StartCallback()"
+    ]
+  }
+},
+{
+  "timestamp": "2025-12-30T22:06:03.9075968+03:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2025-12-30T22:06:03.9076725+03:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Shutdown game instances."
+},
+{
+  "timestamp": "2025-12-30T22:06:03.9078393+03:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2025-12-30T22:06:03.9084575+03:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] InstallTask cancelled by user afa623bc-3627-40eb-9340-298fb4572fa1 ModpackInstallTask"
+},
+{
+  "timestamp": "2025-12-30T22:06:03.9093449+03:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Cancelling modpack installation"
+},
+{
+  "timestamp": "2025-12-30T22:06:03.9896294+03:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2025-12-30T22:06:04.0063833+03:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Removing Game Instance ID - df89d310-382b-46fc-8e81-65fa298bd0fd"
+},
+{
+  "timestamp": "2025-12-30T22:06:04.2020217+03:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 294ms"
+},
+{
+  "timestamp": "2025-12-30T22:06:04.2021375+03:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving GameInstance DB with 0 items"
+},
+{
+  "timestamp": "2025-12-30T22:06:04.203095+03:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved GameInstance DB, which took 0ms"
+},
+{
+  "timestamp": "2025-12-30T22:06:04.2068242+03:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Clearing Discord presence."
+},
+{
+  "timestamp": "2025-12-30T22:06:04.2073291+03:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Discord RPC client disposed successfully."
+},
+{
+  "timestamp": "2025-12-30T22:06:04.2187044+03:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Web Socket session disconnected"
+},
+{
+  "timestamp": "2025-12-30T22:06:04.2189589+03:00",
+  "level": "Warn",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Client disconnected from server"
+},
+{
+  "timestamp": "2025-12-30T22:06:04.2729359+03:00",
+  "level": "Warn",
+  "thread": 5,
+  "memory": 0.0,
+  "message": "Parent process is no longer active. Mods Agent will shutdown."
+},
+{
+  "timestamp": "2025-12-30T22:06:04.2730198+03:00",
+  "level": "Warn",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Parent process exit. Shutting down..."
+},
+{
+  "timestamp": "2025-12-30T22:06:04.2761678+03:00",
+  "level": "Info",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Shutting down the logger"
+},
+{
+  "timestamp": "2025-12-30T22:06:04.2834865+03:00",
+  "level": "Info",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Logging worker finished"
+}
+]}

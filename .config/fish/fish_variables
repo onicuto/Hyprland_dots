@@ -1,0 +1,6 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR __fish_initialized:4300
+SETUVAR _fisher_upgraded_to_4_4:\x1d
+SETUVAR fish_greeting:
+SETUVAR fish_user_paths:/opt/homebrew/opt/swift/bin\x1e/opt/homebrew/sbin\x1e/opt/homebrew/bin
