@@ -9,7 +9,7 @@ selected=$(find "$WALLPAPER_DIR" -type f \( \
   -name "*.jpeg" -o \
   -name "*.png" -o \
   -name "*.webp" \
-  \) -exec basename {} \; | sort | wofi --show dmenu --prompt "Обои: ")
+  \) -exec basename {} \; | sort | wofi --show dmenu --width=400 --prompt "Обои: ")
 
 if [ -n "$selected" ]; then
   wallpaper=$(find "$WALLPAPER_DIR" -name "$selected" | head -1)
