@@ -38,13 +38,13 @@ CHOICE=$(pactl list sinks | awk -v tmp="$TMP_FILE" '
             print active short_desc
         }
     }
-' | wofi --show dmenu --prompt="Sound" --width=200 --height=100)
+' | wofi --show dmenu --prompt="Sound" --width=200 --height=200)
 
 # Переключить если выбрано
 if [ -n "$CHOICE" ]; then
-    CLEAN_CHOICE=$(echo "$CHOICE" | sed 's/^✓ //')
-    SINK=$(grep "^$CLEAN_CHOICE|" "$TMP_FILE" | head -1 | cut -d'|' -f2)
-    pactl set-default-sink "$SINK"
+  CLEAN_CHOICE=$(echo "$CHOICE" | sed 's/^✓ //')
+  SINK=$(grep "^$CLEAN_CHOICE|" "$TMP_FILE" | head -1 | cut -d'|' -f2)
+  pactl set-default-sink "$SINK"
 fi
 
 # Удаляем временный файл
