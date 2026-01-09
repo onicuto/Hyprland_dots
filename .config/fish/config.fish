@@ -11,6 +11,8 @@ if status is-interactive
     alias conf="nvim ~/.dotfiles/.config"
     alias archfetch="brl strat arch ufetch"
     alias voidfetch="brl strat void ufetch"
+    alias debfetch="brl strat debian ufetch"
+    alias lsblk="lsblk -o NAME,SIZE,TYPE,FSTYPE,MOUNTPOINT"
     # Commands to run in interactive sessions can go here
 end
 

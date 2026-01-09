@@ -22,7 +22,7 @@
 # a full restart to take effect.
 theme = Mellifluous
 font-family = "JetBrainsMono SemiBold"
-font-size = 13
+font-size = 16
 # Config syntax crash course
 # ==========================
 # # The config file consists of simple key-value pairs,
