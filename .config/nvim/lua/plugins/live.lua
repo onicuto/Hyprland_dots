@@ -4,7 +4,7 @@ return {
     -- You can choose one of the following pickers
     "nvim-telescope/telescope.nvim",
     "ibhagwan/fzf-lua",
-    "echasnovski/mini.pick",
+    "mini-pick/mini.pick",
     "folke/snacks.nvim",
   },
 }
