@@ -16,5 +16,6 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
-# Created by `pipx` on 2025-11-08 09:42:15
-set PATH $PATH /Users/onicuto/.local/bin
+if test (tty) = /dev/tty1
+    exec start-hyprland >/dev/null 2>&1
+end
