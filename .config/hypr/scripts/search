@@ -1,0 +1,57 @@
+#!/bin/bash
+# ~/.local/bin/search-web
+
+# Определение браузера по умолчанию
+get_default_browser() {
+    if command -v chromium &> /dev/null; then
+        echo "chromium"
+    elif command -v firefox &> /dev/null; then
+        echo "firefox"
+    elif command -v google-chrome-stable &> /dev/null; then
+        echo "google-chrome-stable"
+    elif command -v brave &> /dev/null; then
+        echo "brave"
+    else
+        echo "xdg-open"
+    fi
+}
+
+BROWSER=$(get_default_browser)
+
+# Меню поисковых систем
+ENGINE=$(echo -e "Google\nYouTube\nGitHub\nArch Wiki\nAUR\nReddit\nYandex" | \
+    wofi --show dmenu --prompt "Search engine:" --width 350 --height 400)
+
+# Выход если ничего не выбрано
+if [ -z "$ENGINE" ]; then
+    exit 0
+fi
+
+# Маппинг движков на URL
+declare -A SEARCH_URLS=(
+    ["Google"]="https://www.google.com/search?q="
+    ["YouTube"]="https://www.youtube.com/results?search_query="
+    ["GitHub"]="https://github.com/search?q="
+    ["Arch Wiki"]="https://wiki.archlinux.org/index.php?search="
+    ["AUR"]="https://aur.archlinux.org/packages?K="
+    ["Reddit"]="https://www.reddit.com/search/?q="
+    ["Yandex"]="https://yandex.ru/search/?text="
+)
+
+URL="${SEARCH_URLS[$ENGINE]}"
+
+QUERY=$(echo "" | wofi --show dmenu --prompt "Search $ENGINE:" --width 600)
+
+if [ -n "$QUERY" ]; then
+    ENCODED_QUERY=$(printf '%s' "$QUERY" | jq -sRr @uri 2>/dev/null || python3 -c "import sys, urllib.parse; print(urllib.parse.quote(sys.argv[1]))" "$QUERY" 2>/dev/null || echo "$QUERY")
+    
+    if [ "$BROWSER" = "xdg-open" ]; then
+        xdg-open "${URL}${ENCODED_QUERY}"
+    else
+        if [ -n "$WAYLAND_DISPLAY" ]; then
+            $BROWSER "${URL}${ENCODED_QUERY}" &
+        else
+            $BROWSER "${URL}${ENCODED_QUERY}" >/dev/null 2>&1 &
+        fi
+    fi
+fi
