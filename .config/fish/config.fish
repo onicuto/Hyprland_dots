@@ -1,4 +1,5 @@
 if status is-interactive
+    export LFS=/mnt/lfs
     set -U fish_greeting ""
     fastfetch
     alias py="python3"
