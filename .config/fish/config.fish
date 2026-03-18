@@ -11,5 +11,6 @@ if status is-interactive
 end
 
 if test (tty) = /dev/tty1
-    exec start-hyprland >/dev/null 2>&1
+    set -x XDG_RUNTIME_DIR /run/user/(id -u)
+    exec star-hyprland >/dev/null 2>&1
 end

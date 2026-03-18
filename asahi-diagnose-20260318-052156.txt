@@ -1,0 +1,271 @@
+# Asahi Linux System Diagnostic Dump
+
+    Collected at:   Wed Mar 18 05:21:56 AM UTC 2026 (2026-03-18T05:21:56+00:00)
+    Username:       onicuto
+    Hostname:       void
+
+## Device information
+    Model:          Apple MacBook Air (13-inch, M2, 2022)
+    Compatible:     apple,j413 apple,t8112 apple,arm-platform
+
+## Firmware versions
+    iBoot1:         iBoot-13822.61.10
+    iBoot2:         iBoot-8422.141.2
+    SFR:            unknown
+    OS firmware:    13.5
+    m1n1 stage 2:   v1.5.2
+    U-Boot:         2025.10-1
+
+## Boot information
+    ESP UUID:       a156f035-e054-4c82-80c9-02cc5110bed2
+    EFI:            available
+
+## System information
+    Distro:         Void Linux
+    Kernel:         6.18.9+1-asahi_1
+    Kernel build:   #1 SMP PREEMPT_DYNAMIC Wed Feb 11 01:20:48 UTC 2026
+    Uptime:          05:21:56 up 5 min,  2 users,  load average: 0.00, 0.00, 0.00
+    Kernel cmdline: BOOT_IMAGE=/boot/vmlinux-6.18.9+1-asahi_1 root=UUID=8829688c-3334-49a8-b3cb-ca34d6ff03b8 ro loglevel=4
+
+## Audio Configuration:
+    Default profile: Default
+    Pro Audio profile detected: no
+    Old configuration files in `/etc/`: no
+    File conflicts in `/usr/share/`: no
+    Speaker detonation requested: no
+    TAS2764 quirks applied: no
+
+## Environment
+    LANG='en_US.UTF-8'
+    LC_COLLATE='C'
+    TERM='linux'
+
+## Mounts
+```
+proc /proc proc rw,nosuid,nodev,noexec,relatime 0 0
+sysfs /sys sysfs rw,nosuid,nodev,noexec,relatime 0 0
+devtmpfs /dev devtmpfs rw,nosuid,noexec,size=3771744k,nr_inodes=235734,mode=755,inode64 0 0
+devpts /dev/pts devpts rw,nosuid,noexec,relatime,gid=5,mode=600,ptmxmode=000 0 0
+tmpfs /dev/shm tmpfs rw,nosuid,nodev,noexec,inode64 0 0
+tmpfs /run tmpfs rw,nosuid,nodev,noexec,mode=755,inode64 0 0
+/dev/nvme0n1p6 / ext4 rw,relatime 0 0
+vendorfw /usr/lib/firmware/vendor tmpfs rw,relatime,mode=755,inode64 0 0
+securityfs /sys/kernel/security securityfs rw,relatime 0 0
+efivarfs /sys/firmware/efi/efivars efivarfs ro,nosuid,nodev,noexec,relatime 0 0
+cgroup2 /sys/fs/cgroup cgroup2 rw,relatime,nsdelegate 0 0
+/dev/nvme0n1p4 /boot/efi vfat rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,errors=remount-ro 0 0
+tmpfs /tmp tmpfs rw,nosuid,nodev,relatime,inode64 0 0
+```
+
+## Package versions
+Distribution not supported
+## Block devices
+```
+NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+nvme0n1     259:0    0 465.9G  0 disk 
+├─nvme0n1p1 259:1    0   500M  0 part 
+├─nvme0n1p2 259:2    0 409.8G  0 part 
+├─nvme0n1p3 259:3    0   2.3G  0 part 
+├─nvme0n1p4 259:4    0   477M  0 part /boot/efi
+├─nvme0n1p5 259:5    0     5G  0 part 
+└─nvme0n1p6 259:6    0  47.9G  0 part /
+nvme0n2     259:7    0     3M  0 disk 
+nvme0n3     259:8    0   128M  0 disk 
+```
+
+## PCI devices
+```
+00:00.0 PCI bridge: Apple Inc. Apple Silicon PCI Express Root Port (rev 01)
+01:00.0 Network controller: Broadcom Inc. and subsidiaries BCM4387 802.11ax Dual Band Wireless LAN Controller (rev 07)
+01:00.1 Network controller: Broadcom Inc. and subsidiaries BRCM4387 Bluetooth Controller (rev 07)
+```
+
+## Input devices
+```
+I: Bus=0019 Vendor=05ac Product=0351 Version=0240
+N: Name="Apple MTP keyboard"
+P: Phys=24eb30000.input.2 (keyboard)
+S: Sysfs=/devices/platform/soc/24eb14000.fifo/24eb30000.input/0019:05AC:0351.0003/input/input5
+U: Uniq=F0T3362120G0V7CAH+FNB
+H: Handlers=sysrq kbd leds event0 
+B: PROP=0
+B: EV=120013
+B: KEY=10000 0 0 0 101007b02011007 ff9f217ac14057ff ffbeffdfffefffff fffffffffffffffe
+B: MSC=10
+B: LED=1f
+
+I: Bus=0019 Vendor=05ac Product=0351 Version=0240
+N: Name="Apple MTP multi-touch"
+P: Phys=24eb30000.input.1 (multi-touch)
+S: Sysfs=/devices/platform/soc/24eb14000.fifo/24eb30000.input/0019:05AC:0351.0002/input/input6
+U: Uniq=F0T3362120G0V7CAH+FNB
+H: Handlers=mouse0 event1 
+B: PROP=5
+B: EV=1b
+B: KEY=e520 10000 0 0 0 0
+B: ABS=67f800001000003
+B: MSC=10
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="Apple SMC power/lid events"
+P: Phys=macsmc-input (0)
+S: Sysfs=/devices/platform/soc/23e400000.smc/macsmc-input/input/input7
+U: Uniq=
+H: Handlers=kbd event2 
+B: PROP=0
+B: EV=23
+B: KEY=10000000000000 0
+B: SW=1
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="MacBook Air J413 Headphone Jack"
+P: Phys=ALSA
+S: Sysfs=/devices/platform/sound/sound/card1/input8
+U: Uniq=
+H: Handlers=event3 
+B: PROP=0
+B: EV=21
+B: SW=14
+```
+
+## Loaded modules
+```
+Module                  Size  Used by
+8021q                  65536  0
+garp                   49152  1 8021q
+mrp                    49152  1 8021q
+stp                    49152  1 garp
+llc                    49152  2 stp,garp
+brcmfmac_wcc           49152  0
+brcmfmac              376832  1 brcmfmac_wcc
+cfg80211             1228800  1 brcmfmac
+brcmutil               49152  1 brcmfmac
+hci_bcm4377            81920  0
+joydev                 65536  0
+snd_soc_macaudio       65536  2
+apple_isp             114688  0
+aop_als                49152  0
+aop_las                49152  0
+snd_soc_aop            49152  0
+videobuf2_dma_sg       49152  1 apple_isp
+industrialio           81920  2 aop_las,aop_als
+macsmc_input           49152  0
+videobuf2_memops       65536  1 videobuf2_dma_sg
+videobuf2_v4l2         49152  1 apple_isp
+videodev              360448  2 videobuf2_v4l2,apple_isp
+ofpart                 65536  0
+snd_soc_apple_mca      49152  1
+videobuf2_common       98304  4 videobuf2_v4l2,videobuf2_dma_sg,apple_isp,videobuf2_memops
+snd_soc_cs42l84        65536  1
+spi_nor               196608  0
+snd_soc_tas2764        49152  4
+mc                     98304  4 videodev,videobuf2_v4l2,videobuf2_common,apple_isp
+apple_soc_cpufreq      65536  0
+snd_seq               131072  0
+snd_seq_device         49152  1 snd_seq
+vhost_vsock            65536  0
+vmw_vsock_virtio_transport_common    98304  1 vhost_vsock
+vsock                  98304  2 vmw_vsock_virtio_transport_common,vhost_vsock
+vhost_net              81920  0
+vhost                  98304  2 vhost_vsock,vhost_net
+vhost_iotlb            49152  1 vhost
+tap                    49152  1 vhost_net
+hci_vhci               65536  0
+bluetooth             966656  3 hci_bcm4377,hci_vhci
+ecdh_generic           49152  1 bluetooth
+rfkill                 65536  3 bluetooth,cfg80211
+ecc                    65536  1 ecdh_generic
+vfio_iommu_type1       81920  0
+vfio                   98304  1 vfio_iommu_type1
+uhid                   65536  0
+uinput                 65536  0
+ppp_generic            81920  0
+slhc                   49152  1 ppp_generic
+tun                    98304  1 vhost_net
+loop                   65536  0
+cuse                   49152  0
+fuse                  245760  1 cuse
+efivarfs               49152  1
+hid_magicmouse         65536  0
+hid_apple              65536  0
+rtc_macsmc             49152  0
+macsmc_reboot          49152  0
+macsmc_hwmon           65536  0
+gpio_macsmc            49152  2
+apple_nvmem_spmi       49152  5
+macsmc_power           49152  0
+tps6598x              180224  0
+regmap_spmi            49152  1 apple_nvmem_spmi
+dockchannel_hid        49152  0
+polyval_ce             49152  0
+ghash_ce               49152  0
+dwc3_apple             49152  2
+sm4                    49152  0
+sha3_ce                49152  0
+dwc3                  245760  1 dwc3_apple
+pcie_apple             65536  0
+phy_apple_atc          65536  12
+pci_host_common        49152  1 pcie_apple
+udc_core              114688  1 dwc3
+mux_apple_display_crossbar    49152  0
+apple_tunable          49152  1 phy_apple_atc
+apple_rtkit_helper     49152  0
+aop                    65536  0
+apple_dockchannel      49152  1 dockchannel_hid
+macsmc                 49152  6 macsmc_reboot,gpio_macsmc,macsmc_input,macsmc_hwmon,macsmc_power,rtc_macsmc
+spmi_apple_controller    49152  0
+apple_wdt              49152  1
+nvmem_apple_efuses     49152  0
+mfd_core               49152  1 macsmc
+pinctrl_apple_gpio     49152  6
+asahi                1179648  0
+appledrm              311296  0
+clk_apple_nco          49152  6
+apple_admac            65536  4
+mux_core               49152  2 mux_apple_display_crossbar,appledrm
+spi_apple              49152  0
+snd_pcm_dmaengine      49152  3 snd_soc_apple_mca,appledrm,snd_soc_aop
+i2c_pasemi_platform    49152  0
+pwm_apple              49152  1
+drm_dma_helper         49152  2 appledrm
+i2c_pasemi_core        65536  1 i2c_pasemi_platform
+typec                 131072  3 phy_apple_atc,appledrm,tps6598x
+apple_dart             49152  13
+nvme_apple             65536  2
+apple_sart             65536  1 nvme_apple
+xhci_plat_hcd          65536  0
+xhci_hcd              360448  1 xhci_plat_hcd
+btrfs                1949696  0
+xor                    49152  1 btrfs
+xor_neon               65536  1 xor
+raid6_pq              114688  1 btrfs
+```
+
+## Module parameters
+    hid_apple
+        fnmode=3
+        iso_layout=-1
+        swap_ctrl_cmd=0
+        swap_fn_leftctrl=0
+        swap_opt_cmd=0
+
+    hid_magicmouse
+        emulate_3button=Y
+        emulate_scroll_wheel=Y
+        report_undeciphered=N
+        scroll_acceleration=N
+        scroll_speed=32
+
+
+/usr/bin/asahi-diagnose: 151: journalctl: not found
+## Kernel log
+```
+
+```
+
+/usr/bin/asahi-diagnose: 151: journalctl: not found
+## Kernel log (last boot)
+```
+
+```
+
