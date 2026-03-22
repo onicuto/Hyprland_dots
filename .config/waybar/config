@@ -5,7 +5,7 @@
   "reload_style_on_change": true,
   "modules-left": [ "hyprland/workspaces", "hyprland/language"],
   "modules-center": ["tray"],
-  "modules-right": ["cpu", "memory", "pulseaudio", "clock"],
+  "modules-right": ["cpu", "memory", "pulseaudio", "battery", "clock"],
 
 "network": {
     "interface": "wlp0s20f3",
@@ -43,14 +43,14 @@
 },
 
 "battery": {
-    "bat":"BAT0",
+    "bat":"macsmc-battery",
     "states": {
         "good": 95,
         "warning": 30,
         "critical": 15
     },
-    "format": "{icon} {capacity}%",
-    "format-charging": "+{capacity}%",
+    "format": "B:{capacity}%",
+    "format-charging": "B:+{capacity}%",
     "format-plugged": "B:{capacity}%",
     "format-alt": "B:{time} ",
     "format-icons": ["▁", "▃", "▄", "▆", "█"]
