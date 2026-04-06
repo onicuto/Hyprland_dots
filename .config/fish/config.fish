@@ -18,6 +18,7 @@ if status is-interactive
     alias debfetch="brl strat debian ufetch"
     alias lsblk="lsblk -o NAME,SIZE,TYPE,FSTYPE,MOUNTPOINT"
     alias brlconf="sudoedit /bedrock/etc/bedrock.conf"
+    alias winreboot="sudo bootctl set-oneshot auto-windows && reboot"
     # Commands to run in interactive sessions can go here
 end
 

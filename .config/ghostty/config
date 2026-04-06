@@ -23,6 +23,9 @@
 theme = Mellifluous
 font-family = "JetBrainsMono SemiBold"
 font-size = 17
+notify-on-command-finish = never
+desktop-notifications = false
+app-notifications = false
 # Config syntax crash course
 # ==========================
 # # The config file consists of simple key-value pairs,
