@@ -18,7 +18,7 @@ if [ -n "$selected" ]; then
   cp "$wallpaper" "$CURRENT_WALLPAPER"
 
   # Устанавливаем обои из копии
-  swww img "$CURRENT_WALLPAPER" \
+  awww img "$CURRENT_WALLPAPER" \
     --transition-type grow \
     --transition-step 90 \
     --transition-fps 144 \
