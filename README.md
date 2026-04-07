@@ -4,7 +4,7 @@ Personal Linux dotfiles for an Arch Linux desktop built around Hyprland.
 
 ## Preview
 
-Screenshots are not included yet. Add them to an `assets/` directory and link them here later.
+![sreenshot](assets/image.png)
 
 ## Stack
 
