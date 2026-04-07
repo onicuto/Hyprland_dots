@@ -1,6 +1,6 @@
 # dotfiles
 
-Personal Linux dotfiles for an Arch Linux desktop built around Hyprland.
+Personal Linux dotfiles for an Bedrock Linux desktop built around Hyprland.
 
 ## Preview
 
@@ -14,33 +14,6 @@ Personal Linux dotfiles for an Arch Linux desktop built around Hyprland.
 - Shell: Fish
 - Terminal: Ghostty
 - Editor: Neovim
-- System info: Fastfetch, Neofetch
-- TUI tools: Btop, Cava
-- File manager config: Thunar
-- Themes: GTK 3/4, Qt5ct, Qt6ct, NWG Look
-- Icons and cursors: Bibata, MacOS Tahoe, Infinity
-
-## Included
-
-This repository currently tracks:
-
-- `.config/hypr`
-- `.config/waybar`
-- `.config/wofi`
-- `.config/nvim`
-- `.config/fish`
-- `.config/ghostty`
-- `.config/btop`
-- `.config/cava`
-- `.config/fastfetch`
-- `.config/neofetch`
-- `.config/gtk-3.0`
-- `.config/gtk-4.0`
-- `.config/qt5ct`
-- `.config/qt6ct`
-- `.config/nwg-look`
-- `.config/Thunar`
-- `.icons`
 
 ## Layout
 
@@ -87,13 +60,7 @@ cd ~/.dotfiles
 Create symlinks for the configs you want:
 
 ```bash
-ln -sfn ~/.dotfiles/.config/hypr ~/.config/hypr
-ln -sfn ~/.dotfiles/.config/waybar ~/.config/waybar
-ln -sfn ~/.dotfiles/.config/wofi ~/.config/wofi
-ln -sfn ~/.dotfiles/.config/nvim ~/.config/nvim
-ln -sfn ~/.dotfiles/.config/fish ~/.config/fish
-ln -sfn ~/.dotfiles/.config/ghostty ~/.config/ghostty
-ln -sfn ~/.dotfiles/.icons ~/.icons
+stow .
 ```
 
 Create backups first if you already have local configs.
