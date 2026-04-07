@@ -39,15 +39,6 @@ Personal Linux dotfiles for an Bedrock Linux desktop built around Hyprland.
 └── .icons
 ```
 
-## Notes
-
-- These files are tailored for my machine and workflow.
-- The Hyprland setup uses split configs such as `programs.conf`, `binds.conf`, and `windowrules.conf`.
-- Fish starts `Hyprland` on `tty1` and `startx` on `tty2`.
-- Some values are machine-specific and may need editing before use.
-- The Ghostty config uses the `Mellifluous` theme and `JetBrainsMono SemiBold`.
-- Waybar is configured with a compact top bar and Hyprland workspace/language modules.
-
 ## Install
 
 Clone the repo:
@@ -85,20 +76,6 @@ The setup expects at least some of these packages to be installed:
 
 Package names may differ depending on your distribution.
 
-## Arch Packages
-
-Minimal install example:
-
-```bash
-sudo pacman -S hyprland waybar wofi ghostty fish neovim fastfetch btop cava thunar qt5ct qt6ct nwg-look
-```
-
-Depending on your setup, you may also want:
-
-```bash
-sudo pacman -S pavucontrol wl-clipboard grim slurp hyprlock ttf-jetbrains-mono-nerd
-```
-
 ## Customization
 
 - Edit [`.config/hypr/hyprland.conf`](/home/onicuto/.dotfiles/.config/hypr/hyprland.conf) for monitor, input, animation, and general layout settings.
@@ -108,6 +85,3 @@ sudo pacman -S pavucontrol wl-clipboard grim slurp hyprlock ttf-jetbrains-mono-n
 - Edit [`.config/fish/config.fish`](/home/onicuto/.dotfiles/.config/fish/config.fish) for aliases, environment variables, and session startup behavior.
 - Edit [`.config/ghostty/config`](/home/onicuto/.dotfiles/.config/ghostty/config) for terminal theme, font, and behavior.
 
-## Cleanup
-
-This repository is intended for actual dotfiles only. Cache directories, app binaries, and generated files should stay out of Git history.
