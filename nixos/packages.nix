@@ -5,29 +5,19 @@
     btop
     neofetch
     git
-    alacritty
-    alsa-utils	
-    android-tools
-    ast-grep
     neovim
     wget
     fish
     openssh
-    alacritty
-    blueman
     brightnessctl
     btop  
     cava  
-    ddcutil 
-    kdePackages.dolphin  
     fastfetch
     stow
-    alejandra
-    onefetch
-    atop
     ghostty
     xfce.thunar
     wofi
+    blueman
 
 
     # Hyprland
@@ -44,20 +34,11 @@
     waybar
     
     # Приложения
-    power-profiles-daemon
-    loupe
     brightnessctl
     btop
-    bottom
     cava
-    cargo
-    cliphist
-    cpufrequtils
     curl
     eza
-    fastfetch
-    git
-    grim
     killall
     lazygit
     libnotify
@@ -72,9 +53,6 @@
     swww
     wl-clipboard
     wlogout
-    
-    # Терминалы
-    kitty
     
     # Виртуализация
     virt-viewer
