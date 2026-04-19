@@ -4,14 +4,14 @@
     "source": "~/.config/fastfetch/logo.txt",
     // "type": "small",
     "color": { "1": "white"},
-    "padding": {"top": 1,"left": 3}
+    "padding": {"top": 2,"left": 1}
   },
   "modules": [
     "break",
     {
       "type": "users",
       "key": "User",
-      "format": "{name}@bedrock",
+      "format": "{name}@arch",
       "keyColor": "white"
     },
     {
@@ -35,7 +35,7 @@
     {
       "type": "gpu",
       "key": "Gpu",
-      "format": "{2}",
+      "format": "{name}",
       "keyColor": "white"
     },
     {
