@@ -1,5 +1,5 @@
 if status is-interactive
-    export LFS=/mnt/lfs
+    export LFS="/mnt/lfs"
     export FLSH=/run/media/onicuto
     set -U fish_greeting ""
     fastfetch
@@ -13,12 +13,7 @@ if status is-interactive
     alias fishconf="nvim /home/onicuto/.dotfiles/.config/fish/config.fish"
     alias mirrors="sudo reflector --country Russia --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist"
     alias conf="nvim ~/.dotfiles/.config"
-    alias archfetch="brl strat arch ufetch"
-    alias voidfetch="brl strat void ufetch"
-    alias debfetch="brl strat debian ufetch"
     alias lsblk="lsblk -o NAME,SIZE,TYPE,FSTYPE,MOUNTPOINT"
-    alias brlconf="sudoedit /bedrock/etc/bedrock.conf"
-    alias winreboot="sudo bootctl set-oneshot auto-windows && reboot"
     # Commands to run in interactive sessions can go here
 end
 
