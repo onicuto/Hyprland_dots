@@ -4,7 +4,7 @@ Personal Linux dotfiles for an Bedrock Linux desktop built around Hyprland.
 
 ## Preview
 
-![sreenshot](assets/image.png)
+![screenshot](.config/hypr/wallpapers/main.jpg)
 
 ## Stack
 
@@ -78,10 +78,10 @@ Package names may differ depending on your distribution.
 
 ## Customization
 
-- Edit [`.config/hypr/hyprland.conf`](/home/onicuto/.dotfiles/.config/hypr/hyprland.conf) for monitor, input, animation, and general layout settings.
-- Edit [`.config/hypr/binds.conf`](/home/onicuto/.dotfiles/.config/hypr/binds.conf) for keybindings.
-- Edit [`.config/waybar/config`](/home/onicuto/.dotfiles/.config/waybar/config) and [`.config/waybar/style.css`](/home/onicuto/.dotfiles/.config/waybar/style.css) for bar modules and styling.
-- Edit [`.config/wofi/style.css`](/home/onicuto/.dotfiles/.config/wofi/style.css) for launcher appearance.
-- Edit [`.config/fish/config.fish`](/home/onicuto/.dotfiles/.config/fish/config.fish) for aliases, environment variables, and session startup behavior.
-- Edit [`.config/ghostty/config`](/home/onicuto/.dotfiles/.config/ghostty/config) for terminal theme, font, and behavior.
+- Edit [`.config/hypr/hyprland.conf`](.config/hypr/hyprland.conf) for monitor, input, animation, and general layout settings.
+- Edit [`.config/hypr/binds.conf`](.config/hypr/binds.conf) for keybindings.
+- Edit [`.config/waybar/config`](.config/waybar/config) and [`.config/waybar/style.css`](.config/waybar/style.css) for bar modules and styling.
+- Edit [`.config/wofi/style.css`](.config/wofi/style.css) for launcher appearance.
+- Edit [`.config/fish/config.fish`](.config/fish/config.fish) for aliases, environment variables, and session startup behavior.
+- Edit [`.config/ghostty/config`](.config/ghostty/config) for terminal theme, font, and behavior.
 

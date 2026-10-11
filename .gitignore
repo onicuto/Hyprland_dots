@@ -1,0 +1,189 @@
+# ==============================================================================
+# Dotfiles Repository .gitignore Specification
+# Covering OS artifacts, editor temps, application caches, launchers & secrets
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Agent & Teamwork Workspaces
+# ------------------------------------------------------------------------------
+/.agents/
+
+# ------------------------------------------------------------------------------
+# 2. Operating System Files
+# ------------------------------------------------------------------------------
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+[Tt]humbs.db
+[Tt]humbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ------------------------------------------------------------------------------
+# 3. Editor & IDE Artifacts
+# ------------------------------------------------------------------------------
+# Vim / Neovim
+*.swp
+*.swo
+*.swn
+*.swm
+.*.sw[a-p]
+*.un~
+.netrwhist
+
+# VSCode / VSCodium / Windsurf
+.vscode/
+*.code-workspace
+.history/
+
+# JetBrains
+.idea/
+*.iws
+*.iml
+out/
+
+# General Editor & Backups
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+* (copy*)*
+* (копия*)*
+*~
+
+# ------------------------------------------------------------------------------
+# 4. Sensitive Information & Private Credentials
+# ------------------------------------------------------------------------------
+# Private Keys & Certificates
+*.pem
+*.key
+*.priv
+id_rsa*
+id_ed25519*
+id_ecdsa*
+id_dsa*
+*.pfx
+*.p12
+*.jks
+
+# Environment & Token Files
+.env
+.env.*
+!.env.example
+*.token
+*token*.json
+*secret*
+*credential*
+credentials.json
+auth.json
+gh_token*
+
+# Password databases & Wallets
+*.kdbx
+wallet.dat
+passwords.txt
+
+# VPN & Proxy Credentials
+*.ovpn
+*.conf.secret
+
+# ------------------------------------------------------------------------------
+# 5. Application Caches & Ephemeral Data (Common in ~/.config)
+# ------------------------------------------------------------------------------
+# Browser, Electron, Discord & Media Caches
+**/Cache/
+**/cache/
+**/.cache/
+**/Code Cache/
+**/GPUCache/
+**/DawnCache/
+**/Crashpad/
+**/blob_storage/
+**/IndexedDB/
+**/LocalStorage/
+**/Session Storage/
+**/component_crx_cache/
+**/WidevineCdm/
+**/*.asar
+
+# Logs
+**/logs/
+**/Logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Game Launchers, Steam, Proton & Wine
+**/CommonRedist/
+**/ludusavi/
+**/compatdata/
+**/prefixes/
+*.msi
+*.exe
+*.dll
+
+# Shell & Launcher History
+*fish_history*
+*bash_history*
+*zsh_history*
+rofi-*.cache
+wofi-*.cache
+
+# Temporary runtime files
+*.tmp
+*.temp
+*.pid
+
+# ------------------------------------------------------------------------------
+# 6. Binaries, Native Modules & Build Artifacts
+# ------------------------------------------------------------------------------
+*.o
+*.a
+*.so
+*.dylib
+*.node
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Node.js
+node_modules/
+
+# Rust / Go / C++
+target/
+build/
+dist/
+cmake-build-*/
+
+# Arch Linux packaging
+pkg/
+src/
+*.pkg.tar.*
+
+# ------------------------------------------------------------------------------
+# 7. Exceptions (Files that MUST be tracked)
+# ------------------------------------------------------------------------------
+!lazy-lock.json
+!stylua.toml

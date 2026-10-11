@@ -4,8 +4,28 @@
   "height": 30,
   "reload_style_on_change": true,
   "modules-left": [ "hyprland/workspaces", "hyprland/language"],
-  "modules-center": ["tray"],
-  "modules-right": ["cpu", "memory", "pulseaudio", "clock"],
+  "modules-center": ["custom/lyrics"],
+  "modules-right": ["group/tray-drawer", "cpu", "custom/gpu", "memory", "pulseaudio", "clock"],
+
+  "custom/lyrics": {
+    "format": "{icon} {0}",
+    "return-type": "json",
+    "max-length": 60,
+    "hide-empty-text": true,
+    "format-icons": {
+      "playing": "",
+      "paused": "",
+      "lyric": "",
+      "music": "󰝚",
+      "no_lyric": "",
+      "getting": ""
+    },
+    "exec-if": "which waybar-lyric",
+    "exec": "waybar-lyric --quiet",
+    "on-click": "waybar-lyric play-pause",
+    "on-scroll-up": "waybar-lyric next",
+    "on-scroll-down": "waybar-lyric previous"
+  },
 
 "network": {
     "interface": "wlp0s20f3",
@@ -18,27 +38,45 @@
     "max-length": 50
 },
 
+"group/tray-drawer": {
+    "orientation": "inherit",
+    "drawer": {
+        "transition-duration": 500,
+        "children-class": "tray-child",
+        "transition-left-to-right": false,
+        "click-to-reveal": false
+    },
+    "modules": [
+        "custom/tray-toggle",
+        "tray"
+    ]
+},
+
+"custom/tray-toggle": {
+    "format": "",
+    "tooltip": false
+},
+
 "tray": {
-  "spacing": 20,
+    "spacing": 12
 },
 
 "pulseaudio": {
-    "format": "VOL:{volume}%",
-    "format-bluetooth": "HP:{volume}%",
-    "format-muted": "MT",
+    "format": "{icon} {volume}%",
+    "format-bluetooth": "{icon} {volume}%",
+    "format-muted": "  {volume}%",
     "format-icons": {
-        "headphone": "hp",
-        "hands-free": "hf",
-        "headset": "hs",
-        "phone": "ph",
-        "portable": "pr",
-        "car": "cr",
-        "default": ["", "", "", ""], 
-        "ignored-sinks": ["Easy Effects Sink"]
-        },
+        "headphone": "",
+        "hands-free": "",
+        "headset": "",
+        "phone": "",
+        "portable": "",
+        "car": "",
+        "default": ["", "", ""]
+    },
     "scroll-step": 5.0,
     "on-click": "pavucontrol -t 3",
-	"tooltip-format": "{icon} {desc} | {volume}%",
+    "tooltip-format": "{icon} {desc} | {volume}%",
     "smooth-scrolling-threshold": 1
 },
 
@@ -65,7 +103,7 @@
     "on-scroll-down": "hyprctl dispatch workspace e-1",
     "all-outputs": false,
     "active-only": false,
-    "show-empty": false,
+    "show-empty": false
 },
    
 "hyprland/window": {
@@ -76,7 +114,13 @@
 
 "cpu": {
     "interval": 2,
-    "format": "CPU:{usage}%",
+    "format": " {usage}%"
+},
+
+"custom/gpu": {
+    "interval": 2,
+    "exec": "nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits",
+    "format": "󰢮 {}%"
 },
 
 "power-profiles-daemon": {
@@ -113,13 +157,13 @@
         "on-click-right": "tz_down",
         "on-click-forward": "shift_up",
         "on-click-backward": "shift_down",
-        "on-click-middle": "mode",
+        "on-click-middle": "mode"
     }
 },
 
 "memory": {
     "interval": 5,
-    "format": "MEM:{used:0.1f}G",
-    "format-alt-click": "click",
+    "format": " {used:0.1f}G",
+    "format-alt-click": "click"
 }
 }

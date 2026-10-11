@@ -2,7 +2,7 @@
 
 #backlight, #battery, #network, #workspaces,
 #language, #power-profiles-daemon {
-  background: @transparent;
+  background: transparent;
   color: #ffffff;
   border-radius: 0px;
   margin-top: 1px;
@@ -14,7 +14,7 @@
 }
 
 * {
-  font-family: "Jetbrains mono Semibold";
+  font-family: "Jetbrains mono Semibold", "Symbols Nerd Font";
   font-size: 16px;
 }
 
@@ -46,10 +46,24 @@
 #workspaces button.empty      { color: #787878; }
 #workspaces button.visible    { color: #000000; }
 
-#pulseaudio, #cpu, #memory {
+#pulseaudio, #cpu, #custom-gpu, #memory {
   margin-right: 20px;
+}
+
+#custom-tray-toggle {
+  margin-right: 18px;
+  color: #ffffff;
+}
+
+#tray {
+  margin-right: 14px;
 }
 
 #clock {
   margin-right: 10px;
+}
+
+#custom-lyrics {
+  color: #cdd6f4;
+  padding: 0px 10px;
 }
