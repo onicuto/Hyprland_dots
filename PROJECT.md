@@ -42,7 +42,7 @@ Data Flow and Integration:
 | M1 | Config Audit & Remediation | Fix Waybar JSON/CSS, Hyprland dead refs/wallpaper, Neofetch paths, Qt themes, README, verify fish syntax & 0 secrets | none | DONE |
 | M2 | Gitignore & Junk Prevention | Create comprehensive `.gitignore`, purge tracked `.DS_Store`, `.bak`, and duplicate configs | M1 | DONE |
 | M3 | Local Assets (.icons) Optimization | Delete 4 unused heavy themes (save 104 MB / 30,882 files), retain active cursor/icon themes, clean dangling symlinks | M2 | DONE |
-| M4 | Git History Rewrite & Compression | Backup mirror/bundle, strip large blobs & historical junk apps, aggressive repack to <50 MB .git, pass git fsck | M3 | IN_PROGRESS |
+| M4 | Git History Rewrite & Compression | Backup mirror/bundle, strip large blobs & historical junk apps, aggressive repack to <50 MB .git, pass git fsck | M3 | DONE |
 | M5 | E2E Acceptance Verification & Audit | Verify all acceptance criteria (syntax, no broken links, secrets clean, git status clean, .git <50MB, git fsck) + Forensic Audit | M4 | PLANNED |
 
 ---
