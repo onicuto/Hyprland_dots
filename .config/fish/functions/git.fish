@@ -86,17 +86,17 @@ function git --wraps git --description "Git wrapper with AI commit assistance vi
 
     # Generation loop
     while true
-        echo (set_color cyan --bold)"🤖 Generating commit message with agy..."(set_color normal)
+        echo (set_color cyan --bold)"Generating commit message with agy..."(set_color normal)
 
         set -l prompt "You are an expert Git commit assistant.
-Generate a concise Conventional Commit message for the following git diff in English.
-Format: <type>(<optional-scope>): <imperative summary>
+Generate a strictly single-line, short Conventional Commit message for the following git diff in English.
+Format: <type>(<optional-scope>): <short imperative description>
 Common types: feat, fix, docs, style, refactor, perf, test, build, ci, chore.
 
 Rules:
-1. Output ONLY the raw commit message text. Do NOT wrap in markdown code blocks or quotes.
-2. The first line MUST be under 72 characters.
-3. If necessary, follow with a blank line and brief bullet points explaining key changes.
+1. Output ONLY a single short line. Absolutely no body, no bullet points, no extra lines.
+2. Keep it very short and concise (under 60 characters).
+3. Do NOT use emojis, symbols, quotes, or markdown blocks.
 
 Recent commits for reference:
 $recent_commits
@@ -116,8 +116,10 @@ $diff_body"
             return $status
         end
 
-        # Filter out markdown code fences and trim whitespace
-        set -l commit_msg (printf "%s\n" $raw_msg | string match -rv '^```' | string collect | string trim)
+        # Take strictly the first non-empty line without code fences
+        set -l commit_msg (printf "%s\n" $raw_msg | string match -rv '^```' | string match -rv '^\s*$' | head -n 1 | string trim)
+        # Strip enclosing quotes if present
+        set commit_msg (string replace -r '^["\'](.*)["\']$' '$1' -- "$commit_msg")
 
         echo ""
         echo (set_color green --bold)"Proposed commit message:"(set_color normal)
